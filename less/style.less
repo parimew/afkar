@@ -1,0 +1,137 @@
+@import "normalize.less";
+@import "main.less";
+@import	"grid.less";
+@import	"fonts.less";
+@import	"mixins.less";
+@import	"buttons.less";
+
+//==== NAVIGATION ========================================
+#navigation{
+	background-color: #576dad;
+	padding: 55px 0;
+	text-align: center;
+	
+	ul{
+		li{
+			display: inline-block;
+			a{
+				color:#f3efed;
+				font-family: 'museo_sans_rounded_500regular';
+				.font-size(18);
+				font-weight: 100;
+				padding: 0 23px;
+				text-decoration: none;
+				
+				span{
+					color:#4cd3d6;
+					display: inline-block;
+					.font-size(14);
+					margin-left: 20px;
+				}
+			}
+		}
+	}
+}
+//==== END NAVIGATION ====================================
+
+//==== HOME ==============================================
+.home{
+	#header{
+		background-color: #dde9f2;
+		.container_4{
+			background-image: url(../img/mapa.png);
+			background-position: right top;
+			background-repeat: no-repeat;
+			
+			#we-support{
+				padding-bottom: 58px;
+				padding-top: 92px;
+				text-align: center;
+				
+				img{
+					display: inline-block;
+					margin-bottom: 45px;
+				}
+				p{
+					color:#2c394f;
+					font-weight: normal;
+				}
+				p#entrepreneur{
+					font-family: 'museo_sans_rounded_300regular';
+					.font-size(42);
+					margin-bottom: 5px;
+				}
+				p#support{
+					font-family: 'museo_sans_rounded_500regular';
+					.font-size(100);
+					line-height: 70px;
+					margin-bottom: 24px;
+				}
+				p#digital{
+					font-family: 'museo_sans_rounded_500regular';
+					.font-size(48);
+					margin-bottom: 10px;
+				}
+				p#middle-east{
+					font-family: 'museo_sans_rounded_300regular';
+					.font-size(36);
+					letter-spacing: 7px;
+					margin-bottom: 53px;
+					text-transform: uppercase;
+				}
+				p#date{
+					font-family: 'museo_sans_rounded_300regular';
+					.font-size(16);
+				}
+				.btn{
+					margin-bottom: 20px;
+					width: 75%;
+				}
+			}
+		}
+	}
+	#what-we-seek{
+		background-color: #a3d3ff;
+		padding-bottom: 65px;
+		padding-top: 55px;
+		
+		header{
+			text-align: center;
+			margin-bottom: 30px;
+			
+			span{
+				color:#4c85b9;
+				display: block;
+				font-family: 'museo_sans_rounded_300regular';
+				.font-size(18);
+				margin-bottom: 10px;
+				text-shadow:1px 1px #e1f1ff;
+			}
+			h2{
+				color: #fff;
+				font-family: 'museo_sans_rounded_100regular';
+				.font-size(60);
+				text-shadow:1px 2px #6ca1d3;
+			}
+		}
+		ul{
+			li{
+				text-align: center;
+				
+				img{
+					display: inline-block;
+					margin-bottom: 36px;
+				}
+				p{
+					font-family: 'museo_sans_rounded_300regular';
+					.font-size(18);
+					
+					b{
+						font-family: 'museo_sans_rounded_700regular';
+					}
+				}
+			}
+		}
+	}
+}
+//==== END HOME ==========================================
