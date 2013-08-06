@@ -42,7 +42,7 @@
 	        	<li class="active"><a href="#">Apply <span>Until Nov. 10<sup>th</sup></span></a></li>
 	        </ul>
         </nav><!-- END #navigation -->
-        <section id="what-we-seek">
+        <section id="what-we-seek" class="section">
         	<header>
 	        	<span>AFKAR.ME: Applicants requirements</span>
 	        	<h2>What we seek</h2>	
@@ -67,7 +67,7 @@
         	</ul>
         	<div class="clear"></div>
         </section><!-- END #what-we-seek -->
-        <section id="what-you-will-get">
+        <section id="what-you-will-get" class="section">
 	        <header>
 	        	<span>AFKAR.ME: the perks</span>
 	        	<h2>What we seek</h2>	
@@ -105,7 +105,7 @@
         	</div><!-- END .container_4 -->
         	
         </section><!-- END #what-you-will-get -->
-        <section id="the-program">
+        <section id="the-program" class="section">
 	        <header>
 	        	<span>THE PROGRAM: Selection process</span>
 	        	<h2>This is what will happen down the road...</h2>	
@@ -164,7 +164,7 @@ The best five teams from all the interviews will be invited to come to our weeke
         	<div class="clear"></div>
         	
         </section><!-- END #the-program -->
-        <section id="our-mentors">
+        <section id="our-mentors" class="section">
 	        <header>
 	        	<span>NOT ONLY GREAT EXPERTS</span>
 	        	<h2>Our mentors</h2>	
@@ -210,14 +210,305 @@ The best five teams from all the interviews will be invited to come to our weeke
 		        	<p>Walid Tabaza</p>
 		        	<p>Ceo of Google</p>
 	        	</li>
-
         	</ul>
+        	<div class="clear"></div>
         </section><!-- END #our-mentors -->
-        
+        <section id="partners" class="section">
+	    	<header>
+	        	<span>Lorem Ipsum</span>
+	        	<h2>Our Partners</h2>	
+        	</header>
+        	<div class="container_4">
+	        	<ul class="grid_4">
+		        	<li>
+		        		<img src="img/partners-insead.png" alt="insead">
+		        		<img src="img/partners-wamda.png" alt="wamda">
+		        		<img src="img/partners-arabnet.png" alt="arabnet">
+		        		<img src="img/partners-boozcoandco.png" alt="boozco&co">
+		        	</li>
+		        	<li>
+		        		<img src="img/partners-dubaisme.png" alt="dubaisme">
+		        		<img src="img/partners-tecom.png" alt="tecom">
+		        		<img src="img/partners-mbc.png" alt="mbc">
+		        		<img src="img/partners-astrolabs.png" alt="astrolabs">
+		        	</li>
+		        	<li>
+		        		<img src="img/partners-aus.png" alt="aus">
+		        		<img src="img/partners-mevp.png" alt="mevp">
+		        	</li>
+		        	<li>	
+		        		<img src="img/partners-nnv.png" alt="nnv">
+		        		<img src="img/partners-oqal.png" alt="oqal">
+		        	</li>
+	        	</ul>
+	        	<div class="clear"></div>
+        	</div><!-- END .container_4 -->
+        </section><!-- END #partners -->
+        <section id="faqs" class="section">
+	        <header>
+	        	<span>Got questions? all you need to know for before and after applying</span>
+	        	<h2>FAQs</h2>	
+        	</header>
+        	<div class="container_4">
+	        	<div class="grid_2 alpha">
+	        		<h4>Before applying</h4>
+		        	<ul>
+			        	<li>
+			        		<div class="question">
+				        		Are one man teams allowed for funding?
+				        		<div class="arrow-container">
+				        			<div class="arrow-right"></div>
+				        			<i class="icon-chevron-down"></i>
+				        		</div>	
+			        		</div>
+							<div class="answer">
+								<p>3 to 4 founders is ideal. However, we will consider teams with up to 5 or 6 founders. We will not consider single founders. If you’re currently a single founder, go out and find some co-founders with complementary skill sets before applying.</p>
+							</div>			        		
+			        	</li>
+			        	<li>
+			        		<div class="question">
+				        		Will we be eligible if we are participating in another incubator at the moment?
+				        		<div class="arrow-container">
+				        			<div class="arrow-right"></div>
+				        			<i class="icon-chevron-down"></i>
+				        		</div>	
+			        		</div>
+							<div class="answer">
+								<p>3 to 4 founders is ideal. However, we will consider teams with up to 5 or 6 founders. We will not consider single founders. If you’re currently a single founder, go out and find some co-founders with complementary skill sets before applying.</p>
+							</div>			        		
+			        	</li>
+			        	<li>
+			        		<div class="question">
+				        		Who can apply?
+				        		<div class="arrow-container">
+				        			<div class="arrow-right"></div>
+				        			<i class="icon-chevron-down"></i>
+				        		</div>	
+			        		</div>
+							<div class="answer">
+								<p>3 to 4 founders is ideal. However, we will consider teams with up to 5 or 6 founders. We will not consider single founders. If you’re currently a single founder, go out and find some co-founders with complementary skill sets before applying.</p>
+							</div>			        		
+			        	</li>
+			        	<li>
+			        		<div class="question">
+				        		Can we apply with just an idea or should we already have a product built?
+				        		<div class="arrow-container">
+				        			<div class="arrow-right"></div>
+				        			<i class="icon-chevron-down"></i>
+				        		</div>	
+			        		</div>
+							<div class="answer">
+								<p>3 to 4 founders is ideal. However, we will consider teams with up to 5 or 6 founders. We will not consider single founders. If you’re currently a single founder, go out and find some co-founders with complementary skill sets before applying.</p>
+							</div>			        		
+			        	</li>
+			        	<li>
+			        		<div class="question">
+				        		We have more than 1 idea, can we submit 2 applications?
+				        		<div class="arrow-container">
+				        			<div class="arrow-right"></div>
+				        			<i class="icon-chevron-down"></i>
+				        		</div>	
+			        		</div>
+							<div class="answer">
+								<p>3 to 4 founders is ideal. However, we will consider teams with up to 5 or 6 founders. We will not consider single founders. If you’re currently a single founder, go out and find some co-founders with complementary skill sets before applying.</p>
+							</div>			        		
+			        	</li>
+			        	<li>
+			        		<div class="question">
+				        		At what stage needs my idea to be able to apply?
+				        		<div class="arrow-container">
+				        			<div class="arrow-right"></div>
+				        			<i class="icon-chevron-down"></i>
+				        		</div>	
+			        		</div>
+							<div class="answer">
+								<p>3 to 4 founders is ideal. However, we will consider teams with up to 5 or 6 founders. We will not consider single founders. If you’re currently a single founder, go out and find some co-founders with complementary skill sets before applying.</p>
+							</div>			        		
+			        	</li>
+			        	<li>
+			        		<div class="question">
+				        		I live abroad, can I still apply?
+				        		<div class="arrow-container">
+				        			<div class="arrow-right"></div>
+				        			<i class="icon-chevron-down"></i>
+				        		</div>	
+			        		</div>
+							<div class="answer">
+								<p>3 to 4 founders is ideal. However, we will consider teams with up to 5 or 6 founders. We will not consider single founders. If you’re currently a single founder, go out and find some co-founders with complementary skill sets before applying.</p>
+							</div>			        		
+			        	</li>
+			        	<li>
+			        		<div class="question">
+				        		Are there any nationality requeriments in the competition?
+				        		<div class="arrow-container">
+				        			<div class="arrow-right"></div>
+				        			<i class="icon-chevron-down"></i>
+				        		</div>	
+			        		</div>
+							<div class="answer">
+								<p>3 to 4 founders is ideal. However, we will consider teams with up to 5 or 6 founders. We will not consider single founders. If you’re currently a single founder, go out and find some co-founders with complementary skill sets before applying.</p>
+							</div>			        		
+			        	</li>
+		        	</ul>
+	        	</div><!-- END .grid_2 -->
+	        	<div class="grid_2 omega">
+		        	<h4>After applying</h4>
+		        	<ul>
+			        	<li>
+			        		<div class="question">
+				        		How are you different from other incubators?
+				        		<div class="arrow-container">
+				        			<div class="arrow-right"></div>
+				        			<i class="icon-chevron-down"></i>
+				        		</div>	
+			        		</div>
+							<div class="answer">
+								<p>3 to 4 founders is ideal. However, we will consider teams with up to 5 or 6 founders. We will not consider single founders. If you’re currently a single founder, go out and find some co-founders with complementary skill sets before applying.</p>
+							</div>			        		
+			        	</li>
+			        	<li>
+			        		<div class="question">
+				        		What happens once I’ve applied?
+				        		<div class="arrow-container">
+				        			<div class="arrow-right"></div>
+				        			<i class="icon-chevron-down"></i>
+				        		</div>	
+			        		</div>
+							<div class="answer">
+								<p>3 to 4 founders is ideal. However, we will consider teams with up to 5 or 6 founders. We will not consider single founders. If you’re currently a single founder, go out and find some co-founders with complementary skill sets before applying.</p>
+							</div>			        		
+			        	</li>
+			        	<li>
+			        		<div class="question">
+				        		What if I don't succeed?
+				        		<div class="arrow-container">
+				        			<div class="arrow-right"></div>
+				        			<i class="icon-chevron-down"></i>
+				        		</div>	
+			        		</div>
+							<div class="answer">
+								<p>3 to 4 founders is ideal. However, we will consider teams with up to 5 or 6 founders. We will not consider single founders. If you’re currently a single founder, go out and find some co-founders with complementary skill sets before applying.</p>
+							</div>			        		
+			        	</li>
+			        	<li>
+			        		<div class="question">
+				        		What does innova gets out of this?
+				        		<div class="arrow-container">
+				        			<div class="arrow-right"></div>
+				        			<i class="icon-chevron-down"></i>
+				        		</div>	
+			        		</div>
+							<div class="answer">
+								<p>3 to 4 founders is ideal. However, we will consider teams with up to 5 or 6 founders. We will not consider single founders. If you’re currently a single founder, go out and find some co-founders with complementary skill sets before applying.</p>
+							</div>			        		
+			        	</li>
+			        	<li>
+			        		<div class="question">
+				        		Will you sign an NDA?
+				        		<div class="arrow-container">
+				        			<div class="arrow-right"></div>
+				        			<i class="icon-chevron-down"></i>
+				        		</div>	
+			        		</div>
+							<div class="answer">
+								<p>3 to 4 founders is ideal. However, we will consider teams with up to 5 or 6 founders. We will not consider single founders. If you’re currently a single founder, go out and find some co-founders with complementary skill sets before applying.</p>
+							</div>			        		
+			        	</li>
+			        	<li>
+			        		<div class="question">
+				        		Can teams get funding even if they don't want any coaching, and vice versa?
+				        		<div class="arrow-container">
+				        			<div class="arrow-right"></div>
+				        			<i class="icon-chevron-down"></i>
+				        		</div>	
+			        		</div>
+							<div class="answer">
+								<p>3 to 4 founders is ideal. However, we will consider teams with up to 5 or 6 founders. We will not consider single founders. If you’re currently a single founder, go out and find some co-founders with complementary skill sets before applying.</p>
+							</div>			        		
+			        	</li>
+			        	<li>
+			        		<div class="question">
+				        		What does a day at innova look like?
+				        		<div class="arrow-container">
+				        			<div class="arrow-right"></div>
+				        			<i class="icon-chevron-down"></i>
+				        		</div>	
+			        		</div>
+							<div class="answer">
+								<p>3 to 4 founders is ideal. However, we will consider teams with up to 5 or 6 founders. We will not consider single founders. If you’re currently a single founder, go out and find some co-founders with complementary skill sets before applying.</p>
+							</div>			        		
+			        	</li>
+		        	</ul>
+	        	</div><!-- END .grid_2 -->
+	        	<div class="clear"></div>
+        	</div><!-- END .container_4 -->
+        </section><!-- END #faqs -->
+        <footer id="footer">
+        	<div class="container_4">
+	        	<section id="whos-behind-this" class="sectionf">
+				    <h3>Who is behind this?</h3>
+				    <p>Afkar is an initiative by <b>Intigral</b> for incentivating the growth of talent and digital services and products in the MENA region.</p>
+				</section><!-- END #whos-behind-this -->	
+				<section id="contact-container" class="sectionf">
+				    <div id="faq-contact">
+					    <h3>SOME DOUBTS? SOLVE THEM HERE</h3>
+					    <a href="#">FAQs</a>
+					     <h3>Contact us by email</h3>
+					    <a href="#">info@afkar.me</a>
+				    </div><!-- END #faq-contact -->
+				    <div id="last-tweet">
+					    <h3>last tweet</h3>
+					    <p><a href="#">@telejet</a>: BOOM! Here are the slides from my #webvisions talk on Adaptive Images in #RWD… #wvbcn. greatest time ever!</p>
+					    <h3>follow us</h3>
+					    <a href="#" class="icon-stack">
+						  <i class="icon-circle icon-stack-base"></i>
+						  <i class="icon-twitter icon-light"></i>
+						</a>
+						<a href="#" class="icon-stack">
+						  <i class="icon-circle icon-stack-base"></i>
+						  <i class="icon-youtube-play icon-light"></i>
+						</a>
+						<a href="#" class="icon-stack">
+						  <i class="icon-circle icon-stack-base"></i>
+						  <i class="icon-facebook icon-light"></i>
+						</a>
+				    </div><!-- END #last-tweet -->
+				    <div class="clear"></div>
+				</section><!-- END #faqs-and-social -->	
+				<div class="clear"></div>
+        	</div>
+        </footer>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
 
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        <script>
+	        $(function() {  
+	        	//FAQs - Click to see the details
+	        	$('#faqs .arrow-container i').on('click',function(){
+	        		var vI = $(this);
+		        	var vLi = $(this).closest('li');
+		        	var vAnswer = $(vLi).find('.answer');
+		        	
+		        	if($(vLi).hasClass('active')){
+		        		//Hide the definition
+			        	$(vAnswer).slideUp();
+						//Change the color
+						$(vLi).removeClass('active');
+						//Change the Icon
+						$(vI).removeClass().addClass('icon-chevron-down');	
+		        	}
+		        	else{
+			        	//Change the Icon
+			        	$(vI).removeClass().addClass('icon-chevron-up');
+			        	//Display the definition
+			        	$(vAnswer).slideDown();
+			        	//Change the color
+			        	$(vLi).addClass('active');
+		        	}
+	        	});
+			});
+        </script>
     </body>
 </html>

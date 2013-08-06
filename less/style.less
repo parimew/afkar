@@ -4,6 +4,7 @@
 @import	"fonts.less";
 @import	"mixins.less";
 @import	"buttons.less";
+@import	"font-awesome.less";
 
 //==== NAVIGATION ========================================
 #navigation{
@@ -91,10 +92,7 @@
 		}
 	}
 	
-	#what-we-seek,
-	#what-you-will-get,
-	#the-program,
-	#our-mentors{
+	.section{
 		padding-bottom: 65px;
 		padding-top: 55px;
 		
@@ -278,6 +276,8 @@
 		}
 	}
 	#our-mentors{
+		padding-bottom: 91px;
+		
 		header{
 			margin-bottom: 66px;
 			span{
@@ -303,7 +303,236 @@
 					.font-size(16);
 				}
 			}
+			li:nth-child(1n+5){
+				margin-bottom: 0;
+			}
+		}
+	}
+	#partners{
+		background-color: #e8ebf1;
+		padding-bottom: 98px;
+		
+		header{
+			margin-bottom: 52px;
+			
+			span{
+				color:#4c85b9;
+				text-shadow:1px 1px #ffffff;
+			}
+			h2{
+				color:#345d83;
+				text-shadow:1px 2px #ffffff;
+			}
+		}
+		ul{
+			text-align: center;
+			li{
+				display:block;
+				margin-bottom: 45px;
+				
+				img{
+					margin-right: 60px;	
+				}
+				img:last-child{margin-right: 0;}
+			}
+			li:last-child{margin-bottom: 0;}
+		}
+	}
+	#faqs{
+		background-color: #4b5c66;
+		
+		header{
+			span{
+				color:#a3d3ff;
+				text-shadow:1px 1px #3e4d55;
+			}
+			h2{
+				color:#f3efed;
+				text-shadow:1px 2px #344047;
+			}
+		}
+		
+		h4{
+			color:#fff;
+			font-family: 'museo_sans_rounded_500regular';
+			.font-size(30);
+			font-weight: normal;
+			margin-bottom: 50px;
+			text-align: center;
+		}
+		
+		ul{
+			li{
+				margin-bottom: 18px;
+				
+				.question{
+					background-color: #e8ebf1;
+					border-color: 1px solid #fff;
+					-moz-box-sizing:    border-box;
+					-webkit-box-sizing: border-box;
+					box-sizing:         border-box;
+					color:#6b6b6b;
+					display: inline-block;
+					font-family: 'museo_sans_rounded_300regular';
+					.font-size(18);
+					padding: 23px 33px 20px 18px;
+					position: relative;
+					width: 100%;
+					
+					.arrow-container{
+						bottom:-21px;
+						min-height: 66px;
+						position: absolute;
+						right: 28px;
+						
+						.arrow-right {
+							width: 0; 
+							height: 0; 
+							border-top: 33px solid transparent;
+							border-bottom: 33px solid transparent;	
+							border-left: 33px solid #4bd2d5;
+							.rotate(45deg);
+							position: absolute;
+							top:0;
+							.transition(all 1.2s);
+						}
+						i{
+							color:#fff;
+							cursor: pointer;
+							left: 10px;
+							.font-size(12);
+							position: absolute;
+							top: 27px;
+						}
+					}	
+				}
+				.answer{
+					background-color: #fff;
+					color:#6b6b6b;
+					display: none;
+					margin-bottom: 18px;
+					padding: 23px 33px 15px 18px;
+					
+					p{
+						font-family: 'museo_sans_rounded_300regular';
+						.font-size(16);
+						line-height: 24px;
+					}
+				}
+			}
+			li.active{
+
+				.arrow-container{
+					.arrow-right {
+						border-left-color: #dbe7f3;
+					}
+				}
+			}
+			
 		}
 	}
 }
 //==== END HOME ==========================================
+
+
+//==== FOOTER ============================================
+#footer{
+	background-color: #576dad;
+	
+	#whos-behind-this{
+		background-color: #576dad;
+		float:left;
+		min-height: 100px;
+		width: 416px;
+		
+		h3{
+			color:#82c3ff;
+			font-family: 'museo_sans_rounded_100regular';
+			.font-size(36);
+			margin-bottom: 27px;
+		}
+		p{
+			color:#82c3ff;
+			font-family: 'museo_sans_rounded_300regular';
+			.font-size(16);
+			line-height: 24px;
+			b{
+				color:#fff;
+				font-weight: normal;
+			}
+		}
+	}
+	#contact-container{
+		background-color: #82c3ff;
+		float:right;
+		min-height: 100px;
+		width: 824px;
+		
+		#faq-contact{
+			float: left;
+			margin-left: 95px;
+			width: 270px;
+			
+			h3{
+				color:#345d83;
+				font-family: 'museo_sans_rounded_500regular';
+				.font-size(14);
+				margin-bottom: 28px;
+				text-transform: uppercase;
+			}
+			a{
+				color:#fff;
+				display: inline-block;
+				font-family: 'museo_sans_rounded_100regular';
+				.font-size(36);
+				margin-bottom: 42px;
+				text-decoration: none;
+			}
+			a:last-child{margin-bottom: 42px;}
+		}
+		#last-tweet{
+			margin-left: 95px;
+			float:left;
+			width: 345px;
+			
+			h3{
+				color:#345d83;
+				font-family: 'museo_sans_rounded_500regular';
+				.font-size(14);
+				margin-bottom: 28px;
+				text-transform: uppercase;
+			}
+			p{
+				color:#345d83;
+				font-family: 'museo_sans_rounded_300regular';
+				.font-size(16);
+				line-height: 24px;
+				margin-bottom: 20px;
+				
+				a{
+					color:#fff;
+					font-weight: normal;
+				}
+			}
+			
+			a.icon-stack{
+				display: inline-block;
+				.font-size(28);
+				margin-right: 30px;
+				
+				.icon-circle{
+					color:#475b90;
+				}
+				.icon-light{
+					color:#82c3ff;
+				}
+			}
+
+		}
+	}
+	.sectionf{
+		padding-right: 25px;
+		padding-top: 50px;
+	}
+}
+//==== END FOOTER ========================================
