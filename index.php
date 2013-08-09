@@ -458,12 +458,31 @@ The best five teams from all the interviews will be invited to come to our weeke
         </section><!-- END #faqs -->
         <?php include('includes/footer.php') ?>
         
+       
+        
         <!-- Add fancyBox -->
-        <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-		<script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
-		<script type="text/javascript" src="js/fancybox/helpers/jquery.fancybox-media.js"></script>
+        <link rel="stylesheet" href="js/vendor/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+		<script type="text/javascript" src="js/vendor/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+		<script type="text/javascript" src="js/vendor/fancybox/helpers/jquery.fancybox-media.js"></script>
 		
         <script>
+        	function UpdateTableHeaders() {
+			   $(".static").each(function() {
+			       var el			= $(this),
+			           offset		= el.offset(),
+			           scrollTop	= $(window).scrollTop(),
+			           fixedEl		= $(".fixed")
+			       
+					if (scrollTop > offset.top) {
+			           fixedEl.css({"visibility": "visible"});
+			           el.css({"visibility": "hidden"});
+			       } else {
+			           fixedEl.css({"visibility": "hidden"});
+			           el.css({"visibility": "visible"});
+			       };
+			   });
+			}
+			
 	        $(function() {  
 	        	//FAQs - Click to see the details
 	        	$('#faqs .arrow-container i').on('click',function(){
@@ -501,7 +520,10 @@ The best five teams from all the interviews will be invited to come to our weeke
 						media : {},
 						buttons : {}
 					}
-				});	
+				});
+				
+				//Persistan Navigation
+				$(window).scroll(UpdateTableHeaders).trigger("scroll");	
 			});
         </script>
     </body>
