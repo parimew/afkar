@@ -27,6 +27,10 @@
 						  <i class="icon-circle icon-stack-base"></i>
 						  <i class="icon-facebook icon-light"></i>
 						</a>
+						<a href="#" class="icon-stack">
+						  <i class="icon-circle icon-stack-base"></i>
+						  <i class="icon-google-plus icon-light"></i>
+						</a>
 				    </div><!-- END #last-tweet -->
 				    <div class="clear"></div>
 				</section><!-- END #faqs-and-social -->	

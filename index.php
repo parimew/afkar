@@ -4,9 +4,9 @@
         	<div class="container_4">
 	        	<div id="we-support" class="grid_2">
 		        	<a href="index.php"><img src="img/logo-afkar.png" alt="logo-afkar"></a>
-		        	<p id="entrepreneur">Wanna be an entrepreneur?</p>
-		        	<p id="support">we support</p>
-		        	<p id="digital">digital-oriented startups</p>
+		        	<p id="grow">Grow your big idea here</p>
+		        	<p id="entrepreneur">The first full spectrum </p>
+		        	<p id="support">digital-oriented startup incubator </p>
 		        	<p id="middle-east">for the Middle East</p>
 		        	<a href="apply.php" class="btn">Apply</a>
 		        	<p id="date">Until November 10<sup>th</sup></p>
@@ -33,11 +33,11 @@
 	        		<div class="grid_2 alpha">
 		        		<i class="icon-quote-left"></i>
 			        	<h3 class="alpha">
-			        		The initiative gives entrepreneurs everything they require to take their ideas from conception, to market and to profit
-				        </h3>	
+			        		The initiative gives entrepreneurs everything they require to take their ideas from conception, to market and to revenue.
+			        	</h3>	
 	        		</div><!-- END .grid_2 -->
 			        <p class="grid_2 omega">
-				        Afkar.me is an initiative by Intigral, MENA’s leading digital hub. Afkar.me will support the growth of the region’s digital sector by sourcing, incubating and developing highly relevant business ideas from startups and entrepreneurs both in the region, and globally. As the first full spectrum incubation program developed in MENA the initiative gives entrepreneurs everything they require to take their ideas from conception, to market and to profit. Teams chosen will have the unique opportunity to receive support from Intigral’s expertise, unparalleled access to market and industry know how. Through Afkar.me Intigral will provide tangible benefits to both startups and investors, and ultimately add long term value to the Middle East’s digital ecosystem. To join us on this exciting journey please read through our site and apply.
+				        Afkar.me is an initiative by Intigral, MENA’s leading digital hub. Afkar.me will support the growth of the region’s digital sector by sourcing, incubating and developing innovative business ideas from startups and entrepreneurs both in the region, and globally. Unlike anything currently available in the market, Afkar.me is the first full spectrum incubator developed in MENA that gives entrepreneurs everything they require to take their ideas from conception, to market and to revenue. Teams chosen will have the unique opportunity to receive support from Intigral’s expertise, unparalleled access to market and industry know how. Through Afkar.me Intigral will provide tangible benefits to startups, investors, telco operators, and ultimately add long term value to the Middle East’s digital ecosystem. To join us on this exciting journey please read through our site and apply.
 			        </p>
 	        	</div>
 	        	<div class="clear"></div>
@@ -52,19 +52,19 @@
 	        	<ul class="grid_4">
 		        	<li class="grid_1 alpha">
 			        	<img src="img/icono-jugador.png">
-			        	<p><b>Smart, fun and hard-working teams</b> willing to give their best during 3 months</p>
+			        	<p><b>Smart, inspirational and hard-working teams</b></p>
 		        	</li>
 		        	<li class="grid_1">
 			        	<img src="img/icono-ciudad.png">
-			        	<p>Availability to relocate to Dubai or Riyadh and <b>work exclusively on your business</b></p>
+			        	<p>Availability to relocate to Dubai or Riyadh and <b>work exclusively on accelerating your business</b></p>
 		        	</li>
 		        	<li class="grid_1">
 			        	<img src="img/icono-tablet.png">
-			        	<p><b>Technology-oriented ideas</b> or projects targeting the <b>MENA market</b></p>
+			        	<p><b>Digital product - content oriented ideas </b>targeting the <b>MENA market</b></p>
 		        	</li>
 		        	<li class="grid_1 omega">
 			        	<img src="img/icono-pez.png">
-			        	<p><b>We value divertisy and originality.</b> If you believe in your idea we do as well</p>
+			        	<p>We value <b>diversity and originality</b>. If you believe in your idea we do as well</p>
 		        	</li>
 	        	</ul>
 	        	<div class="clear"></div>
@@ -74,23 +74,24 @@
         	<div class="container_4">
 		        <header class="grid_4">
 		        	<span>AFKAR.ME: the perks</span>
-		        	<h2>What we seek</h2>	
+		        	<h2>What we seek</h2>
+		        	<h5>Full spectrum support that to take your ideas from conception to market to revenue</h5>
 	        	</header>
 	        	<div class="grid_4">
 		        	<ul class="grid_2 alpha">
-		        	<li>
-			        	<span class="step">1</span>
-			        	<p><b>Seed fund</b> for your project so you can focus on your business fulltime</p>
-		        	</li>
-		        	<li>
-			        	<span class="step">2</span>
-			        	<p><b>Someone to guide you</b> at every step of the process</p>
-		        	</li>
-		        	<li>
-			        	<span class="step">3</span>
-			        	<p><b>Office Space</b> to work with us closely on a daily basis</p>
-		        	</li>
-	        	</ul>
+			        	<li>
+				        	<span class="step">1</span>
+				        	<p><b>Seed fund</b> for your project to help you focus on creating value in a short period of time</p>
+			        	</li>
+			        	<li>
+				        	<span class="step">2</span>
+				        	<p><b>Someone to guide you</b> at every step of the process</p>
+			        	</li>
+			        	<li>
+				        	<span class="step">3</span>
+				        	<p><b>Office Space</b> to work with us closely on a daily basis</p>
+			        	</li>
+		        	</ul>
 		        	<ul class="grid_2 omega">
 			        	<li>
 				        	<span class="step">4</span>
@@ -98,7 +99,7 @@
 			        	</li>
 			        	<li>
 				        	<span class="step">5</span>
-				        	<p>Access to <b>revenue pipeline</b> and big exposure in our network</p>
+				        	<p>Access to <b>MENA market</b> with a special focus on KSA</p>
 			        	</li>
 			        	<li>
 				        	<span class="step">6</span>
@@ -121,48 +122,49 @@
 	        	
 	        	<ul class="columns grid_4">
 		        	<li class="grid_1 alpha">
-		        	<header>
-			        	<span>send us your idea</span>
-			        	<h4>Application time</h4>
-		        	</header>
-		        	<div class="description">
-			        	<p>You’ll be able to apply using our form. From all those great ideas submitted we’ll select the 10 that better adapt to our program, which will depend on:</p>
-			        	<ul>
-				        	<li>Which area they are related to</li>
-				        	<li>Their development stage and time  
-   framework</li>
-   							<li>Their commercialization potential</li>
-			        	</ul>
-		        	</div>
-		        	<p>Either selected or not, we’ll let you know by mail</p>
-	        	</li>
+			        	<header>
+				        	<span>send us your idea</span>
+				        	<h4>Application time</h4>
+			        	</header>
+			        	<div class="description">
+				        	<p>You’ll be able to apply using our form. From all those great ideas submitted we’ll select the 10 that better adapt to our program, which will depend on:</p>
+				        	<ul>
+					        	<li>Originality of the idea</li>
+					        	<li>Strength of the team</li>
+	   							<li>Market potential</li>
+	   							<li>Alignment with our business</li>
+				        	</ul>
+				        	<p>Either selected or not, we’ll let you know by mail</p>
+			        	</div>
+		        	</li>
 		        	<li class="grid_1">
-		        	<header>
-			        	<span>LET US GET TO KNOW YOU BETTER</span>
-			        	<h4>Team Interviews</h4>
-		        	</header>
-		        	<div class="description">
-			        	<p>During the next month we’ll interview each team (via Skype) from the first screening to get to know more about their ideas. We are very interested in knowing what their motivations and expectations are.
-The best five teams from all the interviews will be invited to come to our weekend startup event.</p>
-		        	</div>
-	        	</li>
+			        	<header>
+				        	<span>LET US GET TO KNOW YOU BETTER</span>
+				        	<h4>Team Interviews</h4>
+			        	</header>
+			        	<div class="description">
+				        	<p>During the next month we’ll interview some teams (via Skype) from the first screening to get to know more about your ideas. We are very interested in knowing what your motivations and expectations are.</p>
+				        	<p>The first 10 teams will be invited to our 2 day bootcamp.</p>
+			        	</div>
+		        	</li>
 		        	<li class="grid_1">
-		        	<header>
-			        	<span>DELIGHT US WITH YOUR PITCH</span>
-			        	<h4>Weekend Event</h4>
-		        	</header>
-		        	<div class="description">
-			        	<p>The top 5 teams will pitch in front of a panel of experts. It’ll be their best opportunity to impress us.<br>We will offer a training course for a weekend so they learn tips to improve not only their pitch but also other relevant points like their business model.</p>
-		        	</div>
-		        	<p>Winners should start the program immediately.</p>
-	        	</li>
+			        	<header>
+				        	<span>DELIGHT US WITH YOUR PITCH</span>
+				        	<h4>Weekend Event</h4>
+			        	</header>
+			        	<div class="description">
+				        	<p>The top 10 teams will pitch in front of a panel of experts in Dubai or Riyadh. It’ll be your best opportunity to impress us.
+	We will offer a training course for a weekend so you learn tips to improve not only your pitch but also other relevant points like your business model.</p>
+			        	</div>
+			        	<p>Winners should start the program immediately.</p>
+		        	</li>
 		        	<li class="grid_1 omega">
 			        	<header>
 				        	<span>START TO DEVELOP YOUR BUSINESS</span>
 				        	<h4>Welcome!</h4>
 			        	</header>
 			        	<div class="description">
-				        	<p>Congratulations! If your team is here is because you are the ones we fell in love with. We’ll get to work immediately after agreeing which goals you want to achieve during the program.</p>
+				        	<p>Congratulation, If your team is here it is because we believe in your potential to succeed. You will go through our three month extensive program which will help you grow your business and improve your skills.</p>
 			        	</div>
 			        	<p>We can’t wait to start working with you at Afkar!</p>
 		        	</li>
@@ -229,7 +231,7 @@ The best five teams from all the interviews will be invited to come to our weeke
         <section id="partners" class="section">
         	<div class="container_4">
 	    		<header class="grid_4">
-		        	<span>Lorem Ipsum</span>
+		        	<span>The best of the best</span>
 		        	<h2>Our Partners</h2>	
 	        	</header>
 	        	<ul class="grid_4">
@@ -268,14 +270,14 @@ The best five teams from all the interviews will be invited to come to our weeke
 		        	<ul>
 			        	<li>
 			        		<div class="question">
-				        		Are one man teams allowed for funding?
+				        		Is a one man team allowed for funding?
 				        		<div class="arrow-container">
 				        			<div class="arrow-right"></div>
 				        			<i class="icon-chevron-down"></i>
 				        		</div>	
 			        		</div>
 							<div class="answer">
-								<p>3 to 4 founders is ideal. However, we will consider teams with up to 5 or 6 founders. We will not consider single founders. If you’re currently a single founder, go out and find some co-founders with complementary skill sets before applying.</p>
+								<p>We highly encourage diverse teams of 3 to 4; a strong team with a diverse skill set will improve the success factor of a start-up. Teams of one will have a much harder time getting qualified, so if you are a single founder go out and find some co-founders with complementary skill sets before applying.</p>
 							</div>			        		
 			        	</li>
 			        	<li>
@@ -287,7 +289,7 @@ The best five teams from all the interviews will be invited to come to our weeke
 				        		</div>	
 			        		</div>
 							<div class="answer">
-								<p>3 to 4 founders is ideal. However, we will consider teams with up to 5 or 6 founders. We will not consider single founders. If you’re currently a single founder, go out and find some co-founders with complementary skill sets before applying.</p>
+								<p>we will welcome your application however if you get selected you will need to commit to the program and sign on legally binding documents, so make sure you are aligned with your investors and other commitments .</p>
 							</div>			        		
 			        	</li>
 			        	<li>
@@ -299,7 +301,7 @@ The best five teams from all the interviews will be invited to come to our weeke
 				        		</div>	
 			        		</div>
 							<div class="answer">
-								<p>3 to 4 founders is ideal. However, we will consider teams with up to 5 or 6 founders. We will not consider single founders. If you’re currently a single founder, go out and find some co-founders with complementary skill sets before applying.</p>
+								<p>Anybody can apply to Afkar.me, we welcome diversity.</p>
 							</div>			        		
 			        	</li>
 			        	<li>
@@ -311,31 +313,31 @@ The best five teams from all the interviews will be invited to come to our weeke
 				        		</div>	
 			        		</div>
 							<div class="answer">
-								<p>3 to 4 founders is ideal. However, we will consider teams with up to 5 or 6 founders. We will not consider single founders. If you’re currently a single founder, go out and find some co-founders with complementary skill sets before applying.</p>
+								<p>You can apply with only an idea , however in order to better compete with other teams we suggest you come to us with a complete overview on your idea to improve your chances (i.e. business model, product description, user journey, action plan …).</p>
 							</div>			        		
 			        	</li>
 			        	<li>
 			        		<div class="question">
-				        		We have more than 1 idea, can we submit 2 applications?
+				        		We have more than one idea, can we submit two applications?
 				        		<div class="arrow-container">
 				        			<div class="arrow-right"></div>
 				        			<i class="icon-chevron-down"></i>
 				        		</div>	
 			        		</div>
 							<div class="answer">
-								<p>3 to 4 founders is ideal. However, we will consider teams with up to 5 or 6 founders. We will not consider single founders. If you’re currently a single founder, go out and find some co-founders with complementary skill sets before applying.</p>
+								<p>You can always submit two ideas but we recommend you focus on one idea to focus all your energy so that you better prepared to face the competition.</p>
 							</div>			        		
 			        	</li>
 			        	<li>
 			        		<div class="question">
-				        		At what stage needs my idea to be able to apply?
+				        		At what stage the idea should be for me to be eligible to apply?
 				        		<div class="arrow-container">
 				        			<div class="arrow-right"></div>
 				        			<i class="icon-chevron-down"></i>
 				        		</div>	
 			        		</div>
 							<div class="answer">
-								<p>3 to 4 founders is ideal. However, we will consider teams with up to 5 or 6 founders. We will not consider single founders. If you’re currently a single founder, go out and find some co-founders with complementary skill sets before applying.</p>
+								<p>Any of the following stages will be accepted: Business plan, prototype/demo, final product. Keep in mind that the three month program will vary dependent on the state of your company.</p>
 							</div>			        		
 			        	</li>
 			        	<li>
@@ -347,19 +349,20 @@ The best five teams from all the interviews will be invited to come to our weeke
 				        		</div>	
 			        		</div>
 							<div class="answer">
-								<p>3 to 4 founders is ideal. However, we will consider teams with up to 5 or 6 founders. We will not consider single founders. If you’re currently a single founder, go out and find some co-founders with complementary skill sets before applying.</p>
+								<p>Yes we welcome teams from all over the globe, however if you get selected you need to come to Dubai or Riyadh for the boot camp and later move for the three month program.
+</p>
 							</div>			        		
 			        	</li>
 			        	<li>
 			        		<div class="question">
-				        		Are there any nationality requeriments in the competition?
+				        		Are there any nationality requirements in the competition?
 				        		<div class="arrow-container">
 				        			<div class="arrow-right"></div>
 				        			<i class="icon-chevron-down"></i>
 				        		</div>	
 			        		</div>
 							<div class="answer">
-								<p>3 to 4 founders is ideal. However, we will consider teams with up to 5 or 6 founders. We will not consider single founders. If you’re currently a single founder, go out and find some co-founders with complementary skill sets before applying.</p>
+								<p>On the contrary we encourage diversity so your nationality is not an issue, we also value diverse team so I your team has several nationality and a wider exposure you will gain an edge over the competition.</p>
 							</div>			        		
 			        	</li>
 		        	</ul>
@@ -376,7 +379,7 @@ The best five teams from all the interviews will be invited to come to our weeke
 				        		</div>	
 			        		</div>
 							<div class="answer">
-								<p>3 to 4 founders is ideal. However, we will consider teams with up to 5 or 6 founders. We will not consider single founders. If you’re currently a single founder, go out and find some co-founders with complementary skill sets before applying.</p>
+								<p>We are very different to other incubators, our main differentiators is that we give you access to MENA’s biggest market in order to monetize at an early stage. We also don’t take equity upfront from you, we believe that it is unfair to the entrepreneur to lose so much equity so early in the game and as such we have an investment approach that incentivize the entrepreneurs to increase the value of his company during the early stages and keep 100% of his equity in the first 3 to 6 months.</p>
 							</div>			        		
 			        	</li>
 			        	<li>
@@ -388,31 +391,31 @@ The best five teams from all the interviews will be invited to come to our weeke
 				        		</div>	
 			        		</div>
 							<div class="answer">
-								<p>3 to 4 founders is ideal. However, we will consider teams with up to 5 or 6 founders. We will not consider single founders. If you’re currently a single founder, go out and find some co-founders with complementary skill sets before applying.</p>
+								<p>Once the application is submitted, we will review it and might call you for a phone/skype interview. You will know the final answer a week after the application deadline is over.</p>
 							</div>			        		
 			        	</li>
 			        	<li>
 			        		<div class="question">
-				        		What if I don't succeed?
+				        		What if I don’t succeed?
 				        		<div class="arrow-container">
 				        			<div class="arrow-right"></div>
 				        			<i class="icon-chevron-down"></i>
 				        		</div>	
 			        		</div>
 							<div class="answer">
-								<p>3 to 4 founders is ideal. However, we will consider teams with up to 5 or 6 founders. We will not consider single founders. If you’re currently a single founder, go out and find some co-founders with complementary skill sets before applying.</p>
+								<p>In case you don’t succeed, you will be able to apply for the following intake. This will allow you to change or improve your idea. Our aim is to have an intake every quarter of the year.</p>
 							</div>			        		
 			        	</li>
 			        	<li>
 			        		<div class="question">
-				        		What does innova gets out of this?
+				        		What does Afkar gets out of this?
 				        		<div class="arrow-container">
 				        			<div class="arrow-right"></div>
 				        			<i class="icon-chevron-down"></i>
 				        		</div>	
 			        		</div>
 							<div class="answer">
-								<p>3 to 4 founders is ideal. However, we will consider teams with up to 5 or 6 founders. We will not consider single founders. If you’re currently a single founder, go out and find some co-founders with complementary skill sets before applying.</p>
+								<p>Other than potential revenues or share our main focus is to empower the ecosystem and deliver local innovative product to Intigral’s Telco customers.</p>
 							</div>			        		
 			        	</li>
 			        	<li>
@@ -424,31 +427,31 @@ The best five teams from all the interviews will be invited to come to our weeke
 				        		</div>	
 			        		</div>
 							<div class="answer">
-								<p>3 to 4 founders is ideal. However, we will consider teams with up to 5 or 6 founders. We will not consider single founders. If you’re currently a single founder, go out and find some co-founders with complementary skill sets before applying.</p>
+								<p>Once you are selected for the 2-day bootcamp we will provide you with a set of legal documents that will ensure transparency to the process and will clarify the commitment of every party.</p>
 							</div>			        		
 			        	</li>
 			        	<li>
 			        		<div class="question">
-				        		Can teams get funding even if they don't want any coaching, and vice versa?
+				        		Can team get funding even if they don’t want any coaching, and vice versa?
 				        		<div class="arrow-container">
 				        			<div class="arrow-right"></div>
 				        			<i class="icon-chevron-down"></i>
 				        		</div>	
 			        		</div>
 							<div class="answer">
-								<p>3 to 4 founders is ideal. However, we will consider teams with up to 5 or 6 founders. We will not consider single founders. If you’re currently a single founder, go out and find some co-founders with complementary skill sets before applying.</p>
+								<p>We believe that money comes in second to the services, expertise and access we give to teams. We will provide a set of services and cash and dependent on the need of each idea we will provide them.</p>
 							</div>			        		
 			        	</li>
 			        	<li>
 			        		<div class="question">
-				        		What does a day at innova look like?
+				        		What does a day at Afkar looks like?
 				        		<div class="arrow-container">
 				        			<div class="arrow-right"></div>
 				        			<i class="icon-chevron-down"></i>
 				        		</div>	
 			        		</div>
 							<div class="answer">
-								<p>3 to 4 founders is ideal. However, we will consider teams with up to 5 or 6 founders. We will not consider single founders. If you’re currently a single founder, go out and find some co-founders with complementary skill sets before applying.</p>
+								<p>When you join the program you will be offered a working space which is in Intigral offices. This will give you exposure to our environment which is very fun, creative and dynamic.</p>
 							</div>			        		
 			        	</li>
 		        	</ul>
@@ -457,8 +460,6 @@ The best five teams from all the interviews will be invited to come to our weeke
         	</div><!-- END .container_4 -->
         </section><!-- END #faqs -->
         <?php include('includes/footer.php') ?>
-        
-       
         
         <!-- Add fancyBox -->
         <link rel="stylesheet" href="js/vendor/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
