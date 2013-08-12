@@ -1,7 +1,7 @@
 		<nav class="navigation fixed">
         	<div class="container_4">
         		<div class="grid_4">
-	        		<a href="#" class="grid_1 alpha"><img src="img/nav-logo.png"></a>
+	        		<a href="index.php" class="grid_1 alpha"><img src="img/nav-logo.png"></a>
 		        	<ul class="grid_3 omega">
 			        	<li><a href="#">Who we are</a></li>
 			        	<li><a href="#">The program</a></li>

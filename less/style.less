@@ -6,6 +6,60 @@
 @import	"buttons.less";
 @import	"font-awesome.less";
 
+//==== CUSTOM SELECT =====================================
+/*
+	<!-- HTML STRUCTURE -->
+	<div class="custom-select">
+		<p data-value="[data-value]">[Default value] <i class="icon-sort"></i></p>
+		<ul>
+			<li data-value="[data-value]">[data-text]</li>
+		</ul>
+	<div><!-- END .custom-select -->
+*/
+.custom-select{
+	display: inline-block;
+	position: relative;
+	width: 122px;
+	
+	p{
+		color:#565656 !important;
+		cursor: pointer;
+		display: inline-block;
+		font-family: 'museo_sans_rounded_300regular' !important;
+		.font-size(14) !important;
+		margin: 0 !important;
+		padding: 15px;	
+		.rounded(4px);
+		.vertical(#f3f5f7, #dbe1e7);
+		
+		i{
+			display: inline-block;
+			float: right;
+			margin-left: 10px;
+		}
+	}
+	ul{
+		background-color: #fff;
+		border: 1px solid #d1dde8;
+		display: none;
+		position: absolute;
+		top:44px;
+		width: 98%;
+		
+		li{
+			color:#565656;
+			cursor: pointer;
+			font-family: 'museo_sans_rounded_100regular' !important;
+			.font-size(12) !important;
+			padding: 3px 10px;
+		}
+		li:hover{
+			background-color: #e7ebef;
+		}
+	}
+}
+//==== END CUSTOM SELECT =================================
+
 //==== NAVIGATION ========================================
 .navigation{
 	background-color: #576dad;
@@ -584,36 +638,35 @@
 		background-color: #e6f3ff;
 		padding-bottom: 30px;
 		
-		header{
-			margin-bottom: 35px;
-			padding-top: 36px;
-			position: relative;
-			
-			h5{
-				color: #8295a6;
-				display: inline-block;
-				font-family: 'museo_sans_rounded_300regular';
-				.font-size(18);
-				margin-right: 10px;
-				text-shadow: 1px 1px #fff;
-			}	
-			div{
-				display: inline-block;
-				border-bottom: 2px solid #bbb;
-				position: absolute;
-				padding-top: 2px;
-				top:43px;
-				width: 925px;
-			}
-		}
 		form{
-			margin: 0 auto;
-			padding-left: 40px;
-			padding-right: 40px; 
-			width: 581px;
-			
-			.input-container{
+			header{
 				margin-bottom: 35px;
+				padding-top: 36px;
+				position: relative;
+				
+				h5{
+					color: #8295a6;
+					display: inline-block;
+					font-family: 'museo_sans_rounded_300regular';
+					.font-size(18);
+					margin-right: 10px;
+					text-shadow: 1px 1px #fff;
+				}	
+				div{
+					display: inline-block;
+					border-bottom: 2px solid #bbb;
+					position: absolute;
+					padding-top: 2px;
+					top:43px;
+					width: 925px;
+				}
+			}
+			.input-container{
+				margin: 0 auto 35px auto;
+				padding-left: 40px;
+				padding-right: 40px;
+				position: relative;
+				width: 581px;
 				
 				label,h6,p{
 					color:#345d83;
@@ -636,6 +689,14 @@
 					color: #345d83;
 					font-family: 'museo_sans_rounded_300regular';
 					.font-size(14);
+				}
+				a.btn{
+					padding-bottom: 16px;
+					padding-top: 16px;
+					.rounded(32px);
+					text-decoration: none;
+					text-shadow: 1px 1px #40b2b5;
+					width: 100%;
 				}
 				.textarea-wrapper{
 					position: relative;
@@ -690,6 +751,7 @@
 					background-color: #bbb;
 				}
 			}
+			.input-container:last-child{margin-bottom: 0;}
 			.radios-wrapper{
 				input[type="radio"]{
 					display: none;
@@ -768,10 +830,7 @@
 				    line-height: 15px;  
 				}
 			}
-			
 			#similar-products{
-				position: relative;
-				
 				.product{
 					label{
 					display: inline-block;
@@ -790,11 +849,95 @@
 				}
 				
 			}
+			#team{
+				.row{
+					margin-bottom: 16px;
+					
+					label{
+						color:#626262;
+						display: inline-block;
+						font-family: 'museo_sans_rounded_300regular';
+						.font-size(14);
+						margin-right: 10px;
+						margin-bottom: 0;
+					}
+					input[type="text"]{
+						display: inline-block;
+						height: 23px;
+						padding: 5px 20px;
+						width: 500px;
+						
+						&#videoPass{width: 309px;}
+					}
+				}
+				.row:last-child{margin-bottom: 0;}
+				.alter-row{
+					margin-bottom: 36px;
+					
+					label{
+						color:#345d83;
+						display: inline-block;
+						font-family: 'museo_sans_rounded_300regular';
+						.font-size(16);
+						margin-bottom: 20px;
+					}
+					input{
+						display: block;
+						height: 23px;
+						padding: 5px 20px;
+						
+						&[type="number"]{
+							color:#565656;
+							font-family: 'museo_sans_rounded_300regular';
+							.font-size(14);
+							padding: 5px 0 5px 10px;
+							width: 35px;
+						}
+					}
+					
+				}
+				.birth{
+					label{
+						color:#626262;
+						display: block;
+						font-family: 'museo_sans_rounded_300regular';
+						.font-size(14);
+						margin-bottom: 0;
+					}
+					h6{
+						color:#345d83;
+						.font-size(16);
+					}
+					select{
+						color:#565656;
+						display: block;
+						padding: 5px;
+					}
+					.dates{
+						display: inline-block;
+						margin-right: 20px;
+						
+						&.day .custom-select{width: 70px;}
+						&.year .custom-select{width: 100px;}
+					}
+					
+					
+				}
+			}
+		}
+		p.message{
+			display: none;
+			font-family: 'museo_sans_rounded_300regular';
+			.font-size(30);
+			margin-top: 36px;
+			text-align: center;
+			
+			&.success{color:#2ecc71;}
+			&.error{color:#cc3333;}
 		}
 	}
 }
 //==== END APPLY =========================================
-
 
 //==== FOOTER ============================================
 #footer{
