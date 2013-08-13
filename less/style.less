@@ -19,7 +19,7 @@
 .custom-select{
 	display: inline-block;
 	position: relative;
-	width: 122px;
+	/* width: 122px; */
 	
 	p{
 		color:#565656 !important;
@@ -34,7 +34,6 @@
 		
 		i{
 			display: inline-block;
-			float: right;
 			margin-left: 10px;
 		}
 	}
@@ -42,6 +41,8 @@
 		background-color: #fff;
 		border: 1px solid #d1dde8;
 		display: none;
+		height: 150px;
+		overflow-y: scroll;
 		position: absolute;
 		top:44px;
 		width: 98%;
@@ -697,6 +698,10 @@
 					font-weight: normal;
 					margin-bottom: 17px;
 				}
+				label{
+					display: block;
+					margin-right: 15px;
+				}
 				p.optional{
 					color:#4bd2d5;
 					font-family: 'museo_sans_rounded_300regular';
@@ -711,13 +716,24 @@
 					font-family: 'museo_sans_rounded_300regular';
 					.font-size(14);
 				}
+				span.mandatory{
+					color:#cc3333;
+					display: none;
+					font-family: 'museo_sans_rounded_300regular';
+					.font-size(14);
+				}
 				a.btn{
 					padding-bottom: 16px;
 					padding-top: 16px;
 					.rounded(32px);
 					text-decoration: none;
 					text-shadow: 1px 1px #40b2b5;
-					width: 100%;
+					width: 525px;
+					-webkit-transition:all 0.2s ease-in-out;
+				}
+				a.btn:hover{
+				    background-color: #52e5e8;
+				    box-shadow: 0 0 16px #384771;
 				}
 				.textarea-wrapper{
 					position: relative;
@@ -731,13 +747,24 @@
 						right: 10px;
 					}
 				}
-				input[type="text"],
 				textarea{
 					border: 1px solid #d1dde8;
 					color:#626262;
 					font-family: 'museo_sans_rounded_300regular';
 					.font-size(14);
 					line-height: 20px;
+					margin-top: 17px;
+					.rounded(5px);
+					width: 542px;
+				}
+				input[type="text"]{
+					border: 1px solid #d1dde8;
+					color:#626262;
+					display: inline-block;
+					font-family: 'museo_sans_rounded_300regular';
+					.font-size(14);
+					height: 23px;
+					padding: 5px 20px;
 					.rounded(5px);
 					width: 542px;
 				}
@@ -763,13 +790,16 @@
 					color:#8f8f8f;
 					cursor: pointer;
 					display: block;
+					height: 105px;
 					font-family: 'museo_sans_rounded_300regular';
-					.font-size(14);
-					padding: 8px 20px;
+					.font-size(16);
+					padding: 35px 20px 0 20px;
 					.rounded(4px);
+					text-align: center;
 				}
 				#fileHolder.dz-drag-hover{
-					background-color: #bbb;
+					background-color: #ddd;
+					border:1px dashed #fff;
 				}
 			}
 			.input-container:last-child{margin-bottom: 0;}
@@ -819,6 +849,9 @@
 				input[type="checkbox"]{
 					display: none;
 					margin-right: 10px;
+				}
+				span.mandatory{
+					margin-bottom: 17px;
 				}
 				label{
 					cursor: pointer;
@@ -905,6 +938,7 @@
 					input{
 						display: block;
 						height: 23px;
+						margin-top: 0;
 						padding: 5px 20px;
 						
 						&[type="number"]{
@@ -945,6 +979,26 @@
 					}
 					
 					
+				}
+				.phoneFields{
+					margin-bottom: 17px;
+					
+					input[type="text"]{
+						display: inline-block;
+						margin: 0;
+						width: 542px;
+					}
+					#txtPrefix{
+						margin-right: 20px;
+						width: 70px;
+					}
+					#txtPhoneNumber{
+						width: 404px;
+					}
+					label{
+						display: block;
+						margin-bottom: 0;
+					}
 				}
 			}
 		}

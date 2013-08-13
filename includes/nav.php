@@ -7,7 +7,7 @@
 			        	<li><a href="#">The program</a></li>
 			        	<li><a href="#">Mentors & Partners</a></li>
 			        	<li><a href="#">FAQ's</a></li>
-			        	<li><a href="#" class="btn">Apply <span>Until Nov. 10<sup>th</sup></span></a></li>
+			        	<li><a href="apply.php" class="btn">Apply <span>Until Nov. 10<sup>th</sup></span></a></li>
 			        </ul>	
         		</div>
         		

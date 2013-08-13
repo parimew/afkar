@@ -24,24 +24,27 @@ You need to convince, inspire and excite us that by choosing you we will be inve
 			        	<div class="clear"></div>
 			        	
 		        		<div class="input-container">
-			        		<label for="txtMyIdea">Describe your idea/project in 400 characters</label>
+			        		<label for="txtMyIdea">Describe your idea/project in 500 characters</label>
+			        		<span class="mandatory">Don’t you know how to describe it? Come on!</span>
 			        		<div class="textarea-wrapper">
-				        		<textarea name="txtMyIdea" id="txtMyIdea" data-Maxlength="400" class="countdown"></textarea>
-				        		<span>400</span>
+				        		<textarea id="txtMyIdea" data-Maxlength="500" class="countdown"></textarea>
+				        		<span>500</span>
 			        		</div><!-- END .textarea-wrapper -->
 		        		</div><!-- END .input-container -->
 		        		<div class="input-container">
 			        		<label for="txtProblem">What problem or customer pain does your idea/project intend to solve?</label>
+			        		<span class="mandatory">There isn’t any problem? Explain it</span>
 			        		<div class="textarea-wrapper">
-				        		<textarea name="txtProblem" id="txtProblem" data-Maxlength="400" class="countdown"></textarea>
-				        		<span>400</span>
+				        		<textarea id="txtProblem" data-Maxlength="500" class="countdown"></textarea>
+				        		<span>500</span>
 			        		</div><!-- END .textarea-wrapper -->
 		        		</div><!-- END .input-container -->
 		        		<div class="input-container">
 			        		<label for="txtTarget">Who is your target audience and what makes your solution unique?</label>
+			        		<span class="mandatory">There isn’t any problem? Explain it</span>
 			        		<div class="textarea-wrapper">
-				        		<textarea name="txtTarget" id="txtTarget" data-Maxlength="475" class="countdown"></textarea>
-				        		<span>475</span>
+				        		<textarea id="txtTarget" data-Maxlength="500" class="countdown"></textarea>
+				        		<span>500</span>
 			        		</div><!-- END .textarea-wrapper -->
 		        		</div><!-- END .input-container -->
 		        		<div class="input-container radios-wrapper">
@@ -53,6 +56,7 @@ You need to convince, inspire and excite us that by choosing you we will be inve
 		        		</div><!-- END .input-container -->
 		        		<div class="input-container checks-wrapper">
 		        			<h6>How will you get revenue?</h6>
+		        			<span class="mandatory">You must select at least one option</span>
 		        			<div class="column">
 			        			<input id="pay-per-use" type="checkbox" name="check" value="Pay per use"><label for="pay-per-use">Pay per use</label><br />
 			        			<input id="subscription-service" type="checkbox" name="check" value="Subscription Service"><label for="subscription-service">Subscription Service</label><br />
@@ -64,16 +68,20 @@ You need to convince, inspire and excite us that by choosing you we will be inve
 		        				<input id="other" type="checkbox" name="check" value="Other"><label for="other">Other</label>
 		        			</div>
 		        			<div class="clear"></div>
-		        			<p>Explain the logic behind your selections</p>
+		        		</div><!-- END .input-container -->
+		        		<div class="input-container">
+		        			<label>Explain the logic behind your selections</label>
+		        			<span class="mandatory">Don’t leave this field in blank!</span>
 		        			<div class="textarea-wrapper">
-		        				<textarea name="txtLogic" id="xtLogic" data-Maxlength="500" class="countdown"></textarea>
+		        				<textarea id="xtLogic" data-Maxlength="500" class="countdown"></textarea>
 		        				<span>500</span>
 		        			</div><!-- END .textarea-wrapper -->
 		        		</div><!-- END .input-container -->
 		        		<div class="input-container">
 			        		<label for="txtMena">Why do you think your idea/project is suitable for the MENA Market?</label>
+			        		<span class="mandatory">Give us some reasons</span>
 			        		<div class="textarea-wrapper">
-				        		<textarea name="txtMena" id="txtMena" data-Maxlength="500" class="countdown"></textarea>
+				        		<textarea id="txtMena" data-Maxlength="500" class="countdown"></textarea>
 				        		<span>500</span>
 			        		</div><!-- END .textarea-wrapper -->
 		        		</div><!-- END .input-container -->
@@ -81,16 +89,16 @@ You need to convince, inspire and excite us that by choosing you we will be inve
 		        			<h6>Name some similar products in regional or international markets (include the URL if possible)</h6>
 		        			<p class="optional">Optional</p>
 		        			<div class="product">
-			        			<label for="txtProduct1">1 - </label><input type="text" id="txtProduct1" name="txtProduct1" />
-			        			<label for="txtUrl1">URL </label><input type="text" id="txtUrl1" name="txtUrl1" placeholder="http://" />
+			        			<label for="txtProduct1">1 - </label><input type="text" id="txtProduct1" />
+			        			<label for="txtUrl1">URL </label><input type="text" id="txtUrl1" placeholder="http://" />
 		        			</div>
 		        			<div class="product">
-			        			<label for="txtProduct2">2 - </label><input type="text" id="txtProduct2" name="txtProduct2" />
-			        			<label for="txtUrl2">URL </label><input type="text" id="txtUrl2" name="txtUrl2" placeholder="http://" />
+			        			<label for="txtProduct2">2 - </label><input type="text" id="txtProduct2" />
+			        			<label for="txtUrl2">URL </label><input type="text" id="txtUrl2" placeholder="http://" />
 		        			</div>
 		        			<div class="product">
-			        			<label for="txtProduct2">3 - </label><input type="text" id="txtProduct3" name="txtProduct3" />
-			        			<label for="txtUrl3">URL </label><input type="text" id="txtUrl3" name="txtUrl3" placeholder="http://" />
+			        			<label for="txtProduct2">3 - </label><input type="text" id="txtProduct3" />
+			        			<label for="txtUrl3">URL </label><input type="text" id="txtUrl3" placeholder="http://" />
 		        			</div>
 		        		</div><!-- END .input-container -->
 		        		<div class="input-container" id="similar-products">
@@ -99,7 +107,7 @@ You need to convince, inspire and excite us that by choosing you we will be inve
 		        			<p class="optional">Optional</p>
 		        			
 		        			<div id="uploadead-files" class="dropzone-previews"></div>
-		        			<span id="fileHolder">Drag and drop your files here or click to browse</span>
+		        			<span id="fileHolder">Drag and drop your files here<br />or<br />click to browse</span>
 		        		</div><!-- END .input-container -->
 		        		
 		        		<header class="grid_4">
@@ -113,19 +121,20 @@ You need to convince, inspire and excite us that by choosing you we will be inve
 		        			<p class="optional">Optional</p>
 		        			<div class="row">
 			        			<label for="txtUrlShortVideo">URL</label>
-			        			<input type="text" id="txtUrlShortVideo" name="txtUrlShortVideo" placeholder="http://" />
+			        			<input type="text" id="txtUrlShortVideo" placeholder="http://" />
 		        			</div><!-- END .row -->
 		        			<div class="row">
 		        				<label for="videoPass">Please provide the password if any</label>
-		        				<input type="text" id="videoPass" name"videoPass" />
+		        				<input type="text" id="videoPass" />
 		        			</div><!-- END .row -->
 		        			<div class="alter-row">
 		        				<label for="txtPeopleInTeam">How many people are there in your team?</label>
-		        				<input id="txtPeopleInTeam" name="txtPeopleInTeam" type="number" value="0"/>
+		        				<input id="txtPeopleInTeam" type="number" value="0"/>
 		        			</div><!-- END .row -->
 		        			<div class="alter-row">
 		        				<label for="txtFullName">What is your name? (Full name)</label>
-		        				<input id="txtFullName" name="txtFullName" type="text"/>
+		        				<span class="mandatory">Ups! You forget your name</span>
+		        				<input id="txtFullName" type="text"/>
 		        			</div><!-- END .row -->
 		        			<div class="row birth">
 			        			<h6>Date of birth</h6>
@@ -277,9 +286,33 @@ You need to convince, inspire and excite us that by choosing you we will be inve
 									</ul>
 								</div><!-- END .custom-select -->
 			        		</div><!-- END .row -->
+			        		<div class="row">
+		        				<h6>What is your phone number and email?</h6>
+		        				<div class="phoneFields">
+			        				<label for="">Prefix</label>
+			        				<span class="mandatory">Fill both fields using only numbers (no spaces or punctuation marks)</span>
+			        				<input id="txtPrefix" type="text"/>
+			        				<input type="text" id="txtPhoneNumber" />
+		        				</div>
+		        				<div class="phoneFields">
+			        				<label for="">Email</label>
+			        				<span class="mandatory">Give us your email address and check there’s no mistakes!</span>
+			        				<input type="text" id="txtEmail" />
+		        				</div>
+		        			</div><!-- END .row -->
 			        	</div><!-- END .input-container -->
 			        	<div class="input-container">
-				        	<a href="#" class="btn">Apply</a>	
+				        	<label for="txtLinkedin">What is your Linkedin Profile URL?</label>
+	        				<span class="mandatory">Give us your profile and check there’s no mistakes!</span>
+	        				<input id="txtLinkedin" type="text"/>
+			        	</div><!-- END .input-container -->
+			        	<div class="input-container">
+				        	<label for="txtSkype">What is your Skype username??</label>
+	        				<span class="mandatory">Give us your username and check there’s no mistakes!</span>
+	        				<input id="txtSkype" type="text"/>
+			        	</div><!-- END .input-container -->
+			        	<div class="input-container">
+				        	<a href="#" id="btnSend" class="btn">Apply</a>	
 			        	</div><!-- END .input-container -->
 			        	
 		        	</form>	
@@ -288,6 +321,7 @@ You need to convince, inspire and excite us that by choosing you we will be inve
         </section>
 
         <?php include('includes/footer.php') ?>
+        <script src="js/vendor/jquery-ui-1.10.3.custom.min.js"></script>
         <script src="js/vendor/dropzone.js"></script>
         <script type="text/javascript" src="js/vendor/jquery.stellar.min.js"></script>
         
@@ -313,7 +347,7 @@ You need to convince, inspire and excite us that by choosing you we will be inve
 					//Toggle the menu
 					$(this).parent().slideToggle();
 				})
-				
+
 				//Textareas Countdown
 				$(".countdown").keyup(function(){
 					vSpan = $(this).parent().find('span');
@@ -340,6 +374,68 @@ You need to convince, inspire and excite us that by choosing you we will be inve
 						$(this).parent().removeClass('warning').addClass('exceed');
 					}
 				});
+				
+				//TextAreass Control Before Post
+				$('#btnSend').on('click',function(e){
+					e.preventDefault();
+					
+					//Send the POST only if the checkfield function is OK
+					if(CheckFields()){
+						//do ajax
+					}
+					else{
+						//Show the error message in the top of the page
+						$('p.error').show();
+						
+						//Scroll the window to the top
+						$('html, body').animate({scrollTop: 490}, 1500,'easeInOutCirc')
+					}
+				});
+				
+				
+				//This function checks if all the fields are OK to submit
+				function CheckFields(){
+					var vFieldsFlag = true;
+					
+					//Textareas
+					$('textarea').each(function(){
+						var vTextAreaWrapper = $(this).closest('.textarea-wrapper');
+						if($(this).val()==""){
+							$(vTextAreaWrapper).addClass('exceed');
+							$(vTextAreaWrapper).closest('.input-container').find('.mandatory').show();
+							
+							vFieldsFlag = false;
+						}
+						else{
+							$(vTextAreaWrapper).closest('.input-container').find('.mandatory').hide();
+						}
+					});
+					
+					//Checkboxes
+					if ($('.checks-wrapper input:checked').length == 0){
+						$('.checks-wrapper .mandatory').show();
+						vFieldsFlag = false;
+					}
+					else{
+						$('.checks-wrapper .mandatory').hide();
+					}
+					
+					//Text Inputs
+					$('#txtFullName, #txtPrefix, #txtPhoneNumber, #txtLinkedin, #txtSkype').each(function(){
+						if($(this).val() == ''){
+							$(this).parent().find('.mandatory').css('display','block');
+							vFieldsFlag = false;
+						}
+						else{
+							$(this).parent().find('.mandatory').hide();
+						}
+	
+					});
+										
+					return vFieldsFlag;
+				}
+				
+				
 			});
 			
 			
