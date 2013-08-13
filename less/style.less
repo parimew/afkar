@@ -45,6 +45,8 @@
 		position: absolute;
 		top:44px;
 		width: 98%;
+		z-index: 99;
+		
 		
 		li{
 			color:#565656;
@@ -110,10 +112,15 @@
 				margin-top: -8px;
 				padding: 16px 25px;
 				.rounded(26px);
+				-webkit-transition:all 0.2s ease-in-out;
 				
 				span{
 					color:#576dad;
 				}
+			}
+			a.btn:hover{
+			    background: #52e5e8;
+			    box-shadow: 0 0 32px #384771;
 			}
 		}
 	}
@@ -156,7 +163,7 @@
 		
 		.container_4{	
 			#we-support{
-				padding-bottom: 58px;
+				padding-bottom: 36px;
 				padding-top: 92px;
 				text-align: left;
 				
@@ -195,9 +202,16 @@
 					margin-left: 166px;
 				}
 				.btn{
+					padding: 12px 30px 12px;
+					border-radius: 50px;
 					margin-bottom: 20px;
 					text-decoration: none;
 					width: 75%;
+					-webkit-transition:all 0.2s ease-in-out;
+				}
+				.btn:hover{
+				    background-color: #52e5e8;
+				    box-shadow: 0 0 32px #bbc5cd;
 				}
 			}
 		}
@@ -260,7 +274,7 @@
 			font-family: 'museo_sans_rounded_100regular';
 			.font-size(36);
 			font-weight: 100;
-			line-height: normal;
+			line-height: 1.5em;
 		}
 		p{
 			color:#7f8388;
@@ -282,6 +296,7 @@
 					margin-bottom: 36px;
 				}
 				p{
+					color:#365E81;
 					font-family: 'museo_sans_rounded_300regular';
 					.font-size(18);
 					
@@ -351,7 +366,8 @@
 					}
 				}
 			}
-			li:hover{
+			li:hover,
+			li.active{
 				background-color: #e8ebf1;
 				.rounded(5px);
 				
@@ -373,7 +389,7 @@
 		background-color: #e6f3ff;
 		background-image: url(../img/segundo-mapa.jpg);
 		background-repeat: no-repeat;
-		background-position: center top;
+		background-position: left top;
 		
 		header{
 			margin-bottom: 80px;
@@ -967,9 +983,10 @@
 			font-family: 'museo_sans_rounded_300regular';
 			.font-size(16);
 			line-height: 24px;
-			b{
+			a{
 				color:#fff;
 				font-weight: normal;
+				text-decoration: none;
 			}
 		}
 	}
@@ -1030,6 +1047,7 @@
 				display: inline-block;
 				.font-size(28);
 				margin-right: 27px;
+				-webkit-transition:all 0.25s ease-out;
 				
 				.icon-circle{
 					color:#475b90;
@@ -1037,6 +1055,10 @@
 				.icon-light{
 					color:#82c3ff;
 				}
+			}
+			a.icon-stack:hover {
+			  position:relative;
+			  top:-8px;
 			}
 
 		}

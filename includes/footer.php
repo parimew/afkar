@@ -2,7 +2,7 @@
         	<div class="container_4">
 	        	<section id="whos-behind-this" class="sectionf">
 				    <h3>Who is behind this?</h3>
-				    <p>Afkar is an initiative by <b>Intigral</b> for incentivating the growth of talent and digital services and products in the MENA region.</p>
+				    <p>Afkar is an initiative by <a href="http://intigral.net/">Intigral</a> for incentivating the growth of talent and digital services and products in the MENA region.</p>
 				</section><!-- END #whos-behind-this -->	
 				<section id="contact-container" class="sectionf">
 				    <div id="faq-contact">

@@ -74,7 +74,7 @@
         	<div class="container_4">
 		        <header class="grid_4">
 		        	<span>AFKAR.ME: the perks</span>
-		        	<h2>What we seek</h2>
+		        	<h2>What you will get</h2>
 		        	<h5>Full spectrum support that to take your ideas from conception to market to revenue</h5>
 	        	</header>
 	        	<div class="grid_4">
@@ -97,7 +97,7 @@
 				        	<span class="step">4</span>
 				        	<p>All the advice you need from <b>experts in different fields</b> like marketing, business, design, development, legal</p>
 			        	</li>
-			        	<li>
+			        	<li class="active">
 				        	<span class="step">5</span>
 				        	<p>Access to <b>MENA market</b> with a special focus on KSA</p>
 			        	</li>
@@ -236,24 +236,24 @@
 	        	</header>
 	        	<ul class="grid_4">
 		        	<li>
-		        		<img src="img/partners-insead.png" alt="insead">
-		        		<img src="img/partners-wamda.png" alt="wamda">
-		        		<img src="img/partners-arabnet.png" alt="arabnet">
-		        		<img src="img/partners-boozcoandco.png" alt="boozco&co">
+		        		<a href="#"><img src="img/partners-insead.png" alt="insead"></a>
+		        		<a href="#"><img src="img/partners-wamda.png" alt="wamda"></a>
+		        		<a href="#"><img src="img/partners-arabnet.png" alt="arabnet"></a>
+		        		<a href="#"><img src="img/partners-boozcoandco.png" alt="boozco&co"></a>
 		        	</li>
 		        	<li>
-		        		<img src="img/partners-dubaisme.png" alt="dubaisme">
-		        		<img src="img/partners-tecom.png" alt="tecom">
-		        		<img src="img/partners-mbc.png" alt="mbc">
-		        		<img src="img/partners-astrolabs.png" alt="astrolabs">
+		        		<a href="#"><img src="img/partners-dubaisme.png" alt="dubaisme"></a>
+		        		<a href="#"><img src="img/partners-tecom.png" alt="tecom"></a>
+		        		<a href="#"><img src="img/partners-mbc.png" alt="mbc"></a>
+		        		<a href="#"><img src="img/partners-astrolabs.png" alt="astrolabs"></a>
 		        	</li>
 		        	<li>
-		        		<img src="img/partners-aus.png" alt="aus">
-		        		<img src="img/partners-mevp.png" alt="mevp">
+		        		<a href="#"><img src="img/partners-aus.png" alt="aus"></a>
+		        		<a href="#"><img src="img/partners-mevp.png" alt="mevp"></a>
 		        	</li>
 		        	<li>	
-		        		<img src="img/partners-nnv.png" alt="nnv">
-		        		<img src="img/partners-oqal.png" alt="oqal">
+		        		<a href="#"><img src="img/partners-nnv.png" alt="nnv"></a>
+		        		<a href="#"><img src="img/partners-oqal.png" alt="oqal"></a>
 		        	</li>
 	        	</ul>
         	<div class="clear"></div>
