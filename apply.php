@@ -1,4 +1,6 @@
+
     <?php include('includes/head.php'); ?>
+    
     <body class="apply">
         <header id="header" class="stellar" data-stellar-background-ratio="0">
         	<div class="container_4">
@@ -49,7 +51,7 @@ You need to convince, inspire and excite us that by choosing you we will be inve
 		        		</div><!-- END .input-container -->
 		        		<div class="input-container radios-wrapper">
 		        			<h6>What stage is your business at?</h6>
-		        			<input type="radio" checked="checked" name="opStage" id="project/idea" value="Project/idea"/><label for="project/idea">Project/idea</label>
+		        			<input type="radio" checked="checked" name="opStage" id="project-idea" value="Project/idea"/><label for="project-idea">Project/idea</label>
 		        			<input type="radio" name="opStage" id="demo" value="Demo"/><label for="demo">Demo</label>
 		        			<input type="radio" name="opStage" id="finished-product" value="Finished Product"/><label for="finished-product">Finished Product</label>
 		        			<input type="radio" name="opStage" id="already-launched" value="Already launched"/><label for="already-launched">Already launched</label>
@@ -73,7 +75,7 @@ You need to convince, inspire and excite us that by choosing you we will be inve
 		        			<label>Explain the logic behind your selections</label>
 		        			<span class="mandatory">Don’t leave this field in blank!</span>
 		        			<div class="textarea-wrapper">
-		        				<textarea id="xtLogic" data-Maxlength="500" class="countdown"></textarea>
+		        				<textarea id="txtLogic" data-Maxlength="500" class="countdown"></textarea>
 		        				<span>500</span>
 		        			</div><!-- END .textarea-wrapper -->
 		        		</div><!-- END .input-container -->
@@ -142,7 +144,7 @@ You need to convince, inspire and excite us that by choosing you we will be inve
 			        				<label for="">Month</label>
 				        			<!-- MONTH CUSTOM SELECT -->
 									<div class="custom-select">
-										<p data-value="01">January <i class="icon-sort"></i></p>
+										<p data-value="01" id="txtMonth">January <i class="icon-sort"></i></p>
 										<ul>
 											<li data-value="01">January</li>
 											<li data-value="02">February</li>
@@ -163,39 +165,11 @@ You need to convince, inspire and excite us that by choosing you we will be inve
 									<label for="">Day</label>
 									<!-- DAY CUSTOM SELECT -->
 									<div class="custom-select">
-										<p data-value="01">01 <i class="icon-sort"></i></p>
+										<p data-value="01" id="txtDay">01 <i class="icon-sort"></i></p>
 										<ul>
-											<li data-value="01">01</li>
-											<li data-value="02">02</li>
-											<li data-value="03">03</li>
-											<li data-value="04">04</li>
-											<li data-value="05">05</li>
-											<li data-value="06">06</li>
-											<li data-value="07">07</li>
-											<li data-value="08">08</li>
-											<li data-value="09">09</li>
-											<li data-value="10">10</li>
-											<li data-value="11">11</li>
-											<li data-value="12">12</li>
-											<li data-value="13">13</li>
-											<li data-value="14">14</li>
-											<li data-value="15">15</li>
-											<li data-value="16">16</li>
-											<li data-value="17">17</li>
-											<li data-value="18">18</li>
-											<li data-value="19">19</li>
-											<li data-value="20">20</li>
-											<li data-value="21">21</li>
-											<li data-value="22">22</li>
-											<li data-value="23">23</li>
-											<li data-value="24">24</li>
-											<li data-value="25">25</li>
-											<li data-value="26">26</li>
-											<li data-value="27">27</li>
-											<li data-value="28">28</li>
-											<li data-value="29">29</li>
-											<li data-value="30">30</li>
-											<li data-value="31">31</li>
+											<?php for($x=1; $x <= 31; $x++){ ?>
+											<li data-value="<?php echo $x; ?>"><?php echo ($x<10?'0'.$x:$x); ?></li>		
+											<?php } ?>
 										</ul>
 									</div><!-- END .custom-select -->
 								</div><!-- END .dates -->
@@ -203,75 +177,19 @@ You need to convince, inspire and excite us that by choosing you we will be inve
 									<label for="">Year</label>
 									<!-- YEAR CUSTOM SELECT -->
 									<div class="custom-select">
-										<p data-value="1970">1970 <i class="icon-sort"></i></p>
+										<p data-value="1970" id="txtYear">1970 <i class="icon-sort"></i></p>
 										<ul>
-											<li data-value="1940">1940</li>
-											<li data-value="1941">1941</li>
-											<li data-value="1942">1942</li>
-											<li data-value="1943">1943</li>
-											<li data-value="1944">1944</li>
-											<li data-value="1945">1945</li>
-											<li data-value="1946">1946</li>
-											<li data-value="1947">1947</li>
-											<li data-value="1948">1948</li>
-											<li data-value="1949">1949</li>
-											<li data-value="1950">1950</li>
-											<li data-value="1951">1951</li>
-											<li data-value="1952">1952</li>
-											<li data-value="1953">1953</li>
-											<li data-value="1954">1954</li>
-											<li data-value="1955">1955</li>
-											<li data-value="1956">1956</li>
-											<li data-value="1957">1957</li>
-											<li data-value="1958">1958</li>
-											<li data-value="1959">1959</li>
-											<li data-value="1960">1960</li>
-											<li data-value="1961">1961</li>
-											<li data-value="1962">1962</li>
-											<li data-value="1963">1963</li>
-											<li data-value="1964">1964</li>
-											<li data-value="1965">1965</li>
-											<li data-value="1966">1966</li>
-											<li data-value="1967">1967</li>
-											<li data-value="1968">1968</li>
-											<li data-value="1969">1969</li>
-											<li data-value="1970">1970</li>
-											<li data-value="1971">1971</li>
-											<li data-value="1972">1972</li>
-											<li data-value="1973">1973</li>
-											<li data-value="1974">1974</li>
-											<li data-value="1975">1975</li>
-											<li data-value="1976">1976</li>
-											<li data-value="1977">1977</li>
-											<li data-value="1978">1978</li>
-											<li data-value="1979">1979</li>
-											<li data-value="1980">1980</li>
-											<li data-value="1981">1981</li>
-											<li data-value="1982">1982</li>
-											<li data-value="1983">1983</li>
-											<li data-value="1984">1984</li>
-											<li data-value="1985">1985</li>
-											<li data-value="1986">1986</li>
-											<li data-value="1987">1987</li>
-											<li data-value="1988">1988</li>
-											<li data-value="1989">1989</li>
-											<li data-value="1990">1990</li>
-											<li data-value="1991">1991</li>
-											<li data-value="1992">1992</li>
-											<li data-value="1993">1993</li>
-											<li data-value="1994">1994</li>
-											<li data-value="1995">1995</li>
-											<li data-value="1996">1996</li>
-											<li data-value="1997">1997</li>
-											<li data-value="1998">1998</li>
+											<?php for($x=1930; $x <= 1998; $x++){ ?>
+											<li data-value="<?php echo $x; ?>"><?php echo $x; ?></li>		
+											<?php } ?>
 										</ul>
 									</div><!-- END .custom-select -->
 								</div><!-- END .dates -->
 		        			</div><!-- END .row -->
-			        		<div class="row">
+			        		<div class="row residence">
 			        			<h6>Country of residence</h6>
 								<div class="custom-select">
-									<p data-value="Bahrain">Bahrain <i class="icon-sort"></i></p>
+									<p data-value="Bahrain" id="txtResidence">Bahrain <i class="icon-sort"></i></p>
 									<ul>
 										<li data-value="Bahrain">Bahrain</li>
 										<li data-value="Egypt">Egypt</li>
@@ -307,7 +225,7 @@ You need to convince, inspire and excite us that by choosing you we will be inve
 	        				<input id="txtLinkedin" type="text"/>
 			        	</div><!-- END .input-container -->
 			        	<div class="input-container">
-				        	<label for="txtSkype">What is your Skype username??</label>
+				        	<label for="txtSkype">What is your Skype username?</label>
 	        				<span class="mandatory">Give us your username and check there’s no mistakes!</span>
 	        				<input id="txtSkype" type="text"/>
 			        	</div><!-- END .input-container -->
@@ -321,7 +239,7 @@ You need to convince, inspire and excite us that by choosing you we will be inve
         </section>
 
         <?php include('includes/footer.php') ?>
-        <script src="js/vendor/jquery-ui-1.10.3.custom.min.js"></script>
+        
         <script src="js/vendor/dropzone.js"></script>
         <script type="text/javascript" src="js/vendor/jquery.stellar.min.js"></script>
         
@@ -380,8 +298,72 @@ You need to convince, inspire and excite us that by choosing you we will be inve
 					e.preventDefault();
 					
 					//Send the POST only if the checkfield function is OK
-					if(CheckFields()){
+					//if(CheckFields()){
+					if(true){
+						//Variables
+						var vOpRevenue ="";
+						var vFiles = "";
+						
+						//Get al the Revenue checkboxes
+						$('.checks-wrapper input:checked').each(function(){
+							if(vOpRevenue != '') {
+								vOpRevenue += ", ";
+							}
+							vOpRevenue += $(this).val();
+						});
+						
+						//Get all the attached files
+						$('.dz-filename span').each(function(){
+							if(vFiles != '') {
+								vFiles += "<br />";
+							}
+							vFiles += "<a href='<?php echo ($appPath . "/" . $appUploadDirectory . "/"); ?>" + $(this).text() + "' target='_blank'>" + $(this).text() + "</a>";
+						});
+						console.log(vFiles);
+						
+						//Set up the JSON Data
+						var vApply = {
+				            txtMyIdea: $("#txtMyIdea").val(),
+				            txtProblem: $("#txtProblem").val(),
+				            txtTarget: $('#txtTarget').val(),
+				            opStage: $('.radios-wrapper input:checked').val(),
+				            opRevenue: vOpRevenue,
+				            txtLogic: $('#txtLogic').val(),
+				            txtMena: $('#txtMena').val(),
+				            txtProduct1: $('#txtProduct1').val(),
+				            txtProduct2: $('#txtProduct2').val(),
+				            txtProduct3: $('#txtProduct3').val(),
+				            txtUrl1: $('#txtUrl1').val(),
+				            txtUrl2: $('#txtUrl2').val(),
+				            txtUrl3: $('#txtUrl3').val(),
+				            pFiles: vFiles,
+				            txtUrlShortVideo: $('#txtUrlShortVideo').val(),
+				            videoPass: $('#videoPass').val(),
+				            txtPeopleInTeam: $('#txtPeopleInTeam').val(),
+				            txtFullName: $('#txtFullName').val(),
+				            pDateBirth: $('#txtMonth').attr('data-value') + "/" + $('#txtDay').text() + "/" + $('#txtYear').text(),
+				            pResidence: $('#txtResidence').attr('data-value'),
+				            txtPrefix: $('#txtPrefix').val(),
+				            txtPhoneNumber: $('#txtPhoneNumber').val(),
+				            txtLinkedin: $('#txtLinkedin').val(),
+				            txtSkype: $('#txtSkype').val()
+				            }
+				        
+						
 						//do ajax
+						$.ajax({
+							  type: 'POST',
+							  url: 'send-email.php',
+							  data: vApply,
+							  success: function(data){
+							    $('p.success').show();
+							    cleanForm();
+							  },
+							  error: function(xhr, type, exception) { 
+							    // if ajax fails display error alert
+							    $('p.error').show();
+							  }
+							});
 					}
 					else{
 						//Show the error message in the top of the page
@@ -435,16 +417,25 @@ You need to convince, inspire and excite us that by choosing you we will be inve
 					return vFieldsFlag;
 				}
 				
-				
+				//This function cleans the form
+				function cleanForm(){
+					$('input[type="text"], textarea').val('');
+					$('#project-idea').attr('checked','checked');
+					$('.checks-wrapper input').attr('checked','');
+					$('#uploadead-files > *').remove();
+					$('#txtPeopleInTeam').val('0');
+					$('.dates li:first-child, .residence li:first-child').click();
+				}
 			});
 			
 			
 			//Drag & Drop File Upload
 			var fileList = new Array();
 			var myDropzone = new Dropzone("#fileHolder", { 
-				acceptedFiles: ".pdf,.doc,.docx,.txt,.rtf",
+				acceptedFiles: ".pdf,.doc,.docx,.txt,.rtf,.jpg,.jpeg,.png,.gif",
 				addRemoveLinks: true,
 				autoProcessQueue: true,
+				createImageThumbnails:false,
 				url: "upload.php",
 				previewsContainer: "#uploadead-files",
 				dictRemoveFile: 'Delete'

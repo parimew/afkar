@@ -3,12 +3,12 @@
         <header id="header">
         	<div class="container_4">
 	        	<div id="we-support" class="grid_2">
-		        	<a href="index.php"><img src="img/logo-afkar.png" alt="logo-afkar"></a>
+		        	<a href="index.php"><img src="<?php echo $appPath; ?>/img/logo-afkar.png" alt="logo-afkar"></a>
 		        	<p id="grow">Grow your big idea here</p>
 		        	<p id="entrepreneur">The first full spectrum </p>
 		        	<p id="support">digital-oriented startup incubator </p>
 		        	<p id="middle-east">for the Middle East</p>
-		        	<a href="apply.php" class="btn">Apply</a>
+		        	<a href="<?php echo $appPath; ?>/apply.php" class="btn">Apply</a>
 		        	<p id="date">Until November 10<sup>th</sup></p>
 	        	</div><!-- END #we-support -->
 	        	<div class="clear"></div>
@@ -16,7 +16,7 @@
         	
         	<div id="video-promo" class="grid_2">
         		<div id="video-container">
-        			<img src="img/video-promo.jpg" alt="video-promo">  
+        			<img src="<?php echo $appPath; ?>/img/video-promo.jpg" alt="video-promo">  
         			<a class="fancybox-media" rel="media-gallery" href="http://youtu.be/Hgha7nYmXmc"><i class="icon-play-circle icon-light"></i></a>
 	        		<p><b>Incubation?</b> Let us explain <span>how we are different</span> in 56 seconds</p>	
         		</div><!-- END #video-container -->	
@@ -51,19 +51,19 @@
 	        	</header>
 	        	<ul class="grid_4">
 		        	<li class="grid_1 alpha">
-			        	<img src="img/icono-jugador.png">
+			        	<img src="<?php echo $appPath; ?>/img/icono-jugador.png">
 			        	<p><b>Smart, inspirational and hard-working teams</b></p>
 		        	</li>
 		        	<li class="grid_1">
-			        	<img src="img/icono-ciudad.png">
+			        	<img src="<?php echo $appPath; ?>/img/icono-ciudad.png">
 			        	<p>Availability to relocate to Dubai or Riyadh and <b>work exclusively on accelerating your business</b></p>
 		        	</li>
 		        	<li class="grid_1">
-			        	<img src="img/icono-tablet.png">
+			        	<img src="<?php echo $appPath; ?>/img/icono-tablet.png">
 			        	<p><b>Digital product - content oriented ideas </b>targeting the <b>MENA market</b></p>
 		        	</li>
 		        	<li class="grid_1 omega">
-			        	<img src="img/icono-pez.png">
+			        	<img src="<?php echo $appPath; ?>/img/icono-pez.png">
 			        	<p>We value <b>diversity and originality</b>. If you believe in your idea we do as well</p>
 		        	</li>
 	        	</ul>
@@ -118,7 +118,7 @@
 		        	<h2>This is what will happen down the road...</h2>	
 	        	</header>
 	        	
-	        	<img src="img/proceso.png" alt="proceso" width="960" height="90">
+	        	<img src="<?php echo $appPath; ?>/img/proceso.png" alt="proceso" width="960" height="90">
 	        	
 	        	<ul class="columns grid_4">
 		        	<li class="grid_1 alpha">
@@ -181,44 +181,44 @@
 	        	</header>
 	        	<ul class="grid_4">
 		        	<li class="grid_1 alpha">
-			        	<img src="img/mentor-tarek-saadeh.jpg" alt="Tarek Saadeh">
+			        	<img src="<?php echo $appPath; ?>/img/mentor-tarek-saadeh.jpg" alt="Tarek Saadeh">
 			        	<p>Tarek Saadeh</p>
 			        	<p>Partner at CMEA Capital</p>
 		        	</li>
 		        	<li class="grid_1">
-			        	<img src="img/mentor-omar-hanna.jpg" alt="Omar Hanna">
+			        	<img src="<?php echo $appPath; ?>/img/mentor-omar-hanna.jpg" alt="Omar Hanna">
 			        	<p>Omar Hanna</p>
 			        	<p>Principal at VC/PE firm, Abraaj Capital</p>
 		        	</li>
 		        	<li class="grid_1">
-			        	<img src="img/mentor-bhusari.jpg" alt="mentor-bhusari">
+			        	<img src="<?php echo $appPath; ?>/img/mentor-bhusari.jpg" alt="mentor-bhusari">
 			        	<p>J.C.Bhusari</p>
 			        	<p>VP Engineering at digital rewards startup</p>
 		        	</li>
 		        	<li class="grid_1 omega">
-			        	<img src="img/mentor-walid-tabaza.jpg" alt="walid-tabaza">
+			        	<img src="<?php echo $appPath; ?>/img/mentor-walid-tabaza.jpg" alt="walid-tabaza">
 			        	<p>Walid Tabaza</p>
 			        	<p>Ceo of Google</p>
 		        	</li>
 	        	</ul>
 	        	<ul class="grid_4 last-child">
 		        	<li class="grid_1 alpha">
-			        	<img src="img/mentor-tarek-saadeh2.jpg" alt="Tarek Saadeh">
+			        	<img src="<?php echo $appPath; ?>/img/mentor-tarek-saadeh2.jpg" alt="Tarek Saadeh">
 			        	<p>Tarek Saadeh</p>
 			        	<p>Partner at CMEA Capital</p>
 		        	</li>
 		        	<li class="grid_1">
-			        	<img src="img/mentor-omar-hanna2.jpg" alt="Omar Hanna">
+			        	<img src="<?php echo $appPath; ?>/img/mentor-omar-hanna2.jpg" alt="Omar Hanna">
 			        	<p>Omar Hanna</p>
 			        	<p>Principal at VC/PE firm, Abraaj Capital</p>
 		        	</li>
 		        	<li class="grid_1">
-			        	<img src="img/mentor-bhusari2.jpg" alt="mentor-bhusari">
+			        	<img src="<?php echo $appPath; ?>/img/mentor-bhusari2.jpg" alt="mentor-bhusari">
 			        	<p>J.C.Bhusari</p>
 			        	<p>VP Engineering at digital rewards startup</p>
 		        	</li>
 		        	<li class="grid_1 omega">
-			        	<img src="img/mentor-walid-tabaza2.jpg" alt="walid-tabaza">
+			        	<img src="<?php echo $appPath; ?>/img/mentor-walid-tabaza2.jpg" alt="walid-tabaza">
 			        	<p>Walid Tabaza</p>
 			        	<p>Ceo of Google</p>
 		        	</li>
@@ -236,24 +236,24 @@
 	        	</header>
 	        	<ul class="grid_4">
 		        	<li>
-		        		<a href="#"><img src="img/partners-insead.png" alt="insead"></a>
-		        		<a href="#"><img src="img/partners-wamda.png" alt="wamda"></a>
-		        		<a href="#"><img src="img/partners-arabnet.png" alt="arabnet"></a>
-		        		<a href="#"><img src="img/partners-boozcoandco.png" alt="boozco&co"></a>
+		        		<a href="#"><img src="<?php echo $appPath; ?>/img/partners-insead.png" alt="insead"></a>
+		        		<a href="#"><img src="<?php echo $appPath; ?>/img/partners-wamda.png" alt="wamda"></a>
+		        		<a href="#"><img src="<?php echo $appPath; ?>/img/partners-arabnet.png" alt="arabnet"></a>
+		        		<a href="#"><img src="<?php echo $appPath; ?>/img/partners-boozcoandco.png" alt="boozco&co"></a>
 		        	</li>
 		        	<li>
-		        		<a href="#"><img src="img/partners-dubaisme.png" alt="dubaisme"></a>
-		        		<a href="#"><img src="img/partners-tecom.png" alt="tecom"></a>
-		        		<a href="#"><img src="img/partners-mbc.png" alt="mbc"></a>
-		        		<a href="#"><img src="img/partners-astrolabs.png" alt="astrolabs"></a>
+		        		<a href="#"><img src="<?php echo $appPath; ?>/img/partners-dubaisme.png" alt="dubaisme"></a>
+		        		<a href="#"><img src="<?php echo $appPath; ?>/img/partners-tecom.png" alt="tecom"></a>
+		        		<a href="#"><img src="<?php echo $appPath; ?>/img/partners-mbc.png" alt="mbc"></a>
+		        		<a href="#"><img src="<?php echo $appPath; ?>/img/partners-astrolabs.png" alt="astrolabs"></a>
 		        	</li>
 		        	<li>
-		        		<a href="#"><img src="img/partners-aus.png" alt="aus"></a>
-		        		<a href="#"><img src="img/partners-mevp.png" alt="mevp"></a>
+		        		<a href="#"><img src="<?php echo $appPath; ?>/img/partners-aus.png" alt="aus"></a>
+		        		<a href="#"><img src="<?php echo $appPath; ?>/img/partners-mevp.png" alt="mevp"></a>
 		        	</li>
 		        	<li>	
-		        		<a href="#"><img src="img/partners-nnv.png" alt="nnv"></a>
-		        		<a href="#"><img src="img/partners-oqal.png" alt="oqal"></a>
+		        		<a href="#"><img src="<?php echo $appPath; ?>/img/partners-nnv.png" alt="nnv"></a>
+		        		<a href="#"><img src="<?php echo $appPath; ?>/img/partners-oqal.png" alt="oqal"></a>
 		        	</li>
 	        	</ul>
         	<div class="clear"></div>
@@ -462,9 +462,9 @@
         <?php include('includes/footer.php') ?>
         
         <!-- Add fancyBox -->
-        <link rel="stylesheet" href="js/vendor/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-		<script type="text/javascript" src="js/vendor/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
-		<script type="text/javascript" src="js/vendor/fancybox/helpers/jquery.fancybox-media.js"></script>
+        <link rel="stylesheet" href="<?php echo $appPath; ?>/js/vendor/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+		<script type="text/javascript" src="<?php echo $appPath; ?>/js/vendor/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+		<script type="text/javascript" src="<?php echo $appPath; ?>/js/vendor/fancybox/helpers/jquery.fancybox-media.js"></script>
 		
         <script>
         	function UpdateTableHeaders() {

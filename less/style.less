@@ -124,6 +124,17 @@
 			    box-shadow: 0 0 32px #384771;
 			}
 		}
+		#btn-nav-apply{display: inline-block;}
+		#nav-thankyou{
+			display: none;
+			
+			span{
+				color:#4cd3d6;
+				font-family: 'museo_sans_rounded_500regular';
+				.font-size(18);
+				font-weight: 100;
+			}
+		}
 	}
 }
 //==== END NAVIGATION ====================================
@@ -506,10 +517,11 @@
 				display:block;
 				margin-bottom: 45px;
 				
-				img{
+				a{
+					display: inline-block;
 					margin-right: 45px;	
 				}
-				img:last-child{margin-right: 0;}
+				a:last-child{margin-right: 0;}
 			}
 			li:last-child{margin-bottom: 0;}
 		}
@@ -615,7 +627,12 @@
 	padding-top: 134px;
 	.navigation{
 		&.static{display:none;}
-		&.fixed{visibility: visible;}
+		&.fixed{
+			visibility: visible;
+			
+			#btn-nav-apply{display: none;}
+			#nav-thankyou{display: inline-block;}
+		}
 	}
 	
 	#header{
@@ -1017,6 +1034,19 @@
 //==== END APPLY =========================================
 
 //==== FOOTER ============================================
+//Hide the Faq Menu in the home
+.home{
+	#footer{
+		#contact-container{
+			#faq-contact{
+				#faq{
+					display: none;
+				}
+			}
+		}
+	}
+}
+
 #footer{
 	background-color: #576dad;
 	
@@ -1069,6 +1099,11 @@
 				.font-size(36);
 				margin-bottom: 42px;
 				text-decoration: none;
+				
+				.transition(color 0.25s);
+			}
+			a:hover{
+				color:#4bd2d5;
 			}
 			a:last-child{margin-bottom: 42px;}
 		}

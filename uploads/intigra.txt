@@ -1,0 +1,22 @@
+Designit:
+Andrés Botero - andres.botero@designit.com
+
+Cliente:
+Arash Noori - Arash.Noori@intigral.net
+
+Averiguar cuales son los módulos dinámicos del Wordpress
+Pedir a Javi los .png
+Estimar tiempos y requerimientos
+
+Wordpress multidioma (Árabe e Inglés)
+Wordpress responsive (retina)
+Para I9 y Chrome.
+Bootstrap con Framework 960.
+Letra áraba texto de derecha a izquierda
+
+Enviar todos los viernes un summary del proyecto.
+
+Para las calls, estar siempre con alguien de DesignIt (Andrés Botero)
+
+Tenerlo listo para el 23 de Agosto
+Finaliza el 1 de Septiembre

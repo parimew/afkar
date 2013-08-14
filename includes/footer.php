@@ -6,8 +6,10 @@
 				</section><!-- END #whos-behind-this -->	
 				<section id="contact-container" class="sectionf">
 				    <div id="faq-contact">
-					    <h3>SOME DOUBTS? SOLVE THEM HERE</h3>
-					    <a href="#">FAQs</a>
+				    	<div id="faq">
+					    	<h3>SOME DOUBTS? SOLVE THEM HERE</h3>
+					    	<a href="#">FAQs</a>	
+				    	</div>
 					     <h3>Contact us by email</h3>
 					    <a href="#">info@afkar.me</a>
 				    </div><!-- END #faq-contact -->
@@ -39,6 +41,7 @@
         </footer>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+        <script src="<?php echo $appPath; ?>/js/vendor/jquery-ui-1.10.3.custom.min.js"></script>
 
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <script src="<?php echo $appPath; ?>/js/plugins.js"></script>
+        <script src="<?php echo $appPath; ?>/js/main.js"></script>

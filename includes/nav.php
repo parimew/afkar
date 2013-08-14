@@ -1,13 +1,14 @@
 		<nav class="navigation fixed">
         	<div class="container_4">
         		<div class="grid_4">
-	        		<a href="index.php" class="grid_1 alpha"><img src="img/nav-logo.png"></a>
+	        		<a href="index.php" class="grid_1 alpha"><img src="<?php echo $appPath; ?>/img/nav-logo.png"></a>
 		        	<ul class="grid_3 omega">
-			        	<li><a href="#">Who we are</a></li>
-			        	<li><a href="#">The program</a></li>
-			        	<li><a href="#">Mentors & Partners</a></li>
-			        	<li><a href="#">FAQ's</a></li>
-			        	<li><a href="apply.php" class="btn">Apply <span>Until Nov. 10<sup>th</sup></span></a></li>
+			        	<li><a href="<?php echo $appPath; ?>/index.php/#who-we-are">Who we are</a></li>
+			        	<li><a href="<?php echo $appPath; ?>/index.php/#the-program">The program</a></li>
+			        	<li><a href="<?php echo $appPath; ?>/index.php/#our-mentors">Mentors & Partners</a></li>
+			        	<li><a href="<?php echo $appPath; ?>/index.php/#faqs">FAQ's</a></li>
+			        	<li id="btn-nav-apply"><a href="<?php echo $appPath; ?>/apply.php" class="btn">Apply <span>Until Nov. 10<sup>th</sup></span></a></li>
+			        	<li id="nav-thankyou"><span>Thank you!</span></li>
 			        </ul>	
         		</div>
         		
@@ -18,11 +19,11 @@
         	<div class="container_4">
         		<div class="grid_4">
 		        	<ul class="grid_4 alpha omega">
-			        	<li><a href="#">Who we are</a></li>
-			        	<li><a href="#">The program</a></li>
-			        	<li><a href="#">Mentors & Partners</a></li>
-			        	<li><a href="#">FAQ's</a></li>
-			        	<li><a href="#">Apply <span>Until Nov. 10<sup>th</sup></span></a></li>
+			        	<li><a href="who-we-are">Who we are</a></li>
+			        	<li><a href="<?php echo $appPath; ?>/index.php/#the-program">The program</a></li>
+			        	<li><a href="<?php echo $appPath; ?>/index.php/#our-mentors">Mentors & Partners</a></li>
+			        	<li><a href="<?php echo $appPath; ?>/index.php/faqs">FAQ's</a></li>
+			        	<li><a href="<?php echo $appPath; ?>/apply.php">Apply <span>Until Nov. 10<sup>th</sup></span></a></li>
 			        </ul>	
         		</div>
         		

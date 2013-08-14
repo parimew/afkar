@@ -1,3 +1,5 @@
+<?php include('settings.php'); ?>
+
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -10,7 +12,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="<?php echo $appPath; ?>/css/style.css">
 
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="<?php echo $appPath; ?>/js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
