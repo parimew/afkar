@@ -17,19 +17,19 @@
 					    <h3>last tweet</h3>
 					    <p><a href="#">@telejet</a>: BOOM! Here are the slides from my #webvisions talk on Adaptive Images in #RWD… #wvbcn. greatest time ever!</p>
 					    <h3>follow us</h3>
-					    <a href="#" class="icon-stack">
+					    <a href="https://twitter.com/Afkarme" target="_blank" class="icon-stack">
 						  <i class="icon-circle icon-stack-base"></i>
 						  <i class="icon-twitter icon-light"></i>
 						</a>
-						<a href="#" class="icon-stack">
+						<a href="http://www.youtube.com/afkarme" target="_blank" class="icon-stack">
 						  <i class="icon-circle icon-stack-base"></i>
 						  <i class="icon-youtube-play icon-light"></i>
 						</a>
-						<a href="#" class="icon-stack">
+						<a href="https://www.facebook.com/afkar.me?fref=ts" target="_blank" class="icon-stack">
 						  <i class="icon-circle icon-stack-base"></i>
 						  <i class="icon-facebook icon-light"></i>
 						</a>
-						<a href="#" class="icon-stack">
+						<a href="https://plus.google.com/b/108559906790966316139/108559906790966316139/posts" target="_blank" class="icon-stack">
 						  <i class="icon-circle icon-stack-base"></i>
 						  <i class="icon-google-plus icon-light"></i>
 						</a>

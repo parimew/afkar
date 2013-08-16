@@ -268,29 +268,7 @@ You need to convince, inspire and excite us that by choosing you we will be inve
 
 				//Textareas Countdown
 				$(".countdown").keyup(function(){
-					vSpan = $(this).parent().find('span');
-					
-					//MaxLenght of the textarea
-					vMaxLenght = parseInt($(this).attr('data-Maxlength'));
-					
-					//Actual characters in the textarea
-					var vActual = parseInt($(this).val().length);
-					var vRemains = vMaxLenght - vActual;
-					
-					//Change the counter
-					vSpan.text(vRemains);
-					
-					//Change the colour depending on its remains characteres
-					
-					if(vRemains > 30){
-						$(this).parent().removeClass('warning exceed');
-					}
-					else if(vRemains >= 0 && vRemains <= 30){
-						$(this).parent().removeClass('exceed').addClass('warning');
-					}
-					else if(vRemains < 0){
-						$(this).parent().removeClass('warning').addClass('exceed');
-					}
+					Charactersleft($(this));
 				});
 				
 				//TextAreass Control Before Post
@@ -298,8 +276,7 @@ You need to convince, inspire and excite us that by choosing you we will be inve
 					e.preventDefault();
 					
 					//Send the POST only if the checkfield function is OK
-					//if(CheckFields()){
-					if(true){
+					if(CheckFields()){
 						//Variables
 						var vOpRevenue ="";
 						var vFiles = "";
@@ -319,7 +296,6 @@ You need to convince, inspire and excite us that by choosing you we will be inve
 							}
 							vFiles += "<a href='<?php echo ($appPath . "/" . $appUploadDirectory . "/"); ?>" + $(this).text() + "' target='_blank'>" + $(this).text() + "</a>";
 						});
-						console.log(vFiles);
 						
 						//Set up the JSON Data
 						var vApply = {
@@ -358,10 +334,12 @@ You need to convince, inspire and excite us that by choosing you we will be inve
 							  success: function(data){
 							    $('p.success').show();
 							    cleanForm();
+							    $('html, body').animate({scrollTop: 490}, 1500,'easeInOutCirc')
 							  },
 							  error: function(xhr, type, exception) { 
 							    // if ajax fails display error alert
 							    $('p.error').show();
+							    $('html, body').animate({scrollTop: 490}, 1500,'easeInOutCirc')
 							  }
 							});
 					}
@@ -373,7 +351,6 @@ You need to convince, inspire and excite us that by choosing you we will be inve
 						$('html, body').animate({scrollTop: 490}, 1500,'easeInOutCirc')
 					}
 				});
-				
 				
 				//This function checks if all the fields are OK to submit
 				function CheckFields(){
@@ -420,11 +397,42 @@ You need to convince, inspire and excite us that by choosing you we will be inve
 				//This function cleans the form
 				function cleanForm(){
 					$('input[type="text"], textarea').val('');
-					$('#project-idea').attr('checked','checked');
-					$('.checks-wrapper input').attr('checked','');
+					$('textarea').each(function(){
+						Charactersleft($(this));
+					});
+					$('#project-idea').prop('checked', true);
+					$('.checks-wrapper input').removeAttr('checked');
 					$('#uploadead-files > *').remove();
 					$('#txtPeopleInTeam').val('0');
-					$('.dates li:first-child, .residence li:first-child').click();
+					$('#txtMonth').attr('data-value','01').text('January');
+					$('#txtDay').attr('data-value','01').text('01');
+					$('#txtYear').attr('data-value','1970').text('1970');
+					$('#txtResidence').attr('data-value','Bahrain').text('Bahrain');
+				}
+				function Charactersleft(pElement){
+					vSpan = $(pElement).parent().find('span');
+					
+					//MaxLenght of the textarea
+					vMaxLenght = parseInt($(pElement).attr('data-Maxlength'));
+					
+					//Actual characters in the textarea
+					var vActual = parseInt($(pElement).val().length);
+					var vRemains = vMaxLenght - vActual;
+					
+					//Change the counter
+					vSpan.text(vRemains);
+					
+					//Change the colour depending on its remains characteres
+					
+					if(vRemains > 30){
+						$(pElement).parent().removeClass('warning exceed');
+					}
+					else if(vRemains >= 0 && vRemains <= 30){
+						$(pElement).parent().removeClass('exceed').addClass('warning');
+					}
+					else if(vRemains < 0){
+						$(pElement).parent().removeClass('warning').addClass('exceed');
+					}
 				}
 			});
 			

@@ -1,6 +1,6 @@
     <?php include('includes/head.php'); ?>
     <body class="home">
-        <header id="header">
+        <header id="header" class="fadeIn">
         	<div class="container_4">
 	        	<div id="we-support" class="grid_2">
 		        	<a href="index.php"><img src="<?php echo $appPath; ?>/img/logo-afkar.png" alt="logo-afkar"></a>
@@ -118,7 +118,7 @@
 		        	<h2>This is what will happen down the road...</h2>	
 	        	</header>
 	        	
-	        	<img src="<?php echo $appPath; ?>/img/proceso.png" alt="proceso" width="960" height="90">
+	        	<img src="<?php echo $appPath; ?>/img/proceso.png" alt="proceso" id="process-bar" width="960" height="90">
 	        	
 	        	<ul class="columns grid_4">
 		        	<li class="grid_1 alpha">
@@ -525,6 +525,34 @@
 				
 				//Persistan Navigation
 				$(window).scroll(UpdateTableHeaders).trigger("scroll");	
+				
+				//Animations
+				$(window).scroll(function() {
+					$('#what-we-seek li').each(function(){
+						var imagePos = $(this).offset().top;
+				
+						var topOfWindow = $(window).scrollTop();
+						if (imagePos < topOfWindow+400) {
+							$(this).addClass("bigEntrance");
+						}
+					});
+					
+					$('#process-bar').each(function(){
+						var imagePos = $(this).offset().top;
+						var topOfWindow = $(window).scrollTop();
+						if (imagePos < topOfWindow+400) {
+							$(this).addClass("slideRight");
+						}
+					});
+					
+					$('#our-mentors li').each(function(){
+						var imagePos = $(this).offset().top;
+						var topOfWindow = $(window).scrollTop();
+						if (imagePos < topOfWindow+400) {
+							$(this).addClass("expandOpen");
+						}
+					});
+				});
 			});
         </script>
     </body>

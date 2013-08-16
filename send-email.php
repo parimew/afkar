@@ -47,6 +47,12 @@
 	$headers .= "MIME-Version: 1.0\r\n";
 	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 	
-	//Send the email
-	return mail($email_to,$email_subject,$message,$headers);
+	try{
+    	//Send the email
+    	return mail($email_to,$email_subject,$message,$headers);	
+	}
+	catch(Exception $e){
+		//re-throw exception
+		throw new customException($e.getMessage());
+	}
 ?>
