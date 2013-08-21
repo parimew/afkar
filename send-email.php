@@ -54,6 +54,7 @@
 	}
 	catch(Exception $e){
 		//re-throw exception
-		throw new customException($e.getMessage());
+		//throw new customException($e.getMessage());
+		print($e.getMessage());
 	}
 ?>
