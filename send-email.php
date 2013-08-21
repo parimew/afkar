@@ -1,10 +1,12 @@
 <?php
+	include('settings.php');
 	
 	//Variables
 	$message = '';
 	$headers = '';
 	
-	$message = "<p>Hello Admin! A new apply has been uploaded through the Afkar Website.<br />";
+	
+$message = "<p>Hello Admin! A new apply has been uploaded through the Afkar Website.<br />";
 	$message .= "Here are the details:</p>";
 	$message .= "<p>=== YOUR IDEA/PROJECT ==============================================================</p>";
 	$message .= "<b>Describe your idea/project in 500 characters:</b><br/><p style='margin:0 0 20px 0;'>" . $_POST['txtMyIdea'] . "</p>";
@@ -30,7 +32,7 @@
 		$message .= "</div>";
 	$message .= "<b>Upload documents if you consider they will help us get a better understanding of your project</b><br/>";
 	$message .= "<div style='margin-bottom:20px;'>" . stripslashes($_POST['pFiles']) . "</div>";
-	$message .= "<p>=== ABOUT YOU AND YOUR TEAM ==============================================================</p>";
+	$message .= "<p>=== ABOUT YOU AND YOUR TEAM ========</p>";
 	
 	
 	$message .= "<p style='margin:0;'><b>URL</b>: " . $_POST['txtUrlShortVideo'] . "</p>";
@@ -43,10 +45,11 @@
 	$message .= "<p style='margin:0;'><b>What is your Linkedin Profile URL?</b>: " . $_POST['txtLinkedin'] . "</p>";
 	$message .= "<p style='margin:0;'><b>What is your Skype username?</b>: " . $_POST['txtSkype'] . "</p>";
 		
-	$headers = "From: " . $email_from ."\r\n";
+	$headers = "From: " . $email_from . "\r\n";
 	$headers .= "MIME-Version: 1.0\r\n";
-	$headers .= "Content-Type: text/html\r\n"
+	$headers .= "Content-Type: text/html\r\n";
 	$headers .= "charset=ISO-8859-1\r\n";
+
 	
 	try{
     	//Send the email
@@ -54,7 +57,6 @@
 	}
 	catch(Exception $e){
 		//re-throw exception
-		//throw new customException($e.getMessage());
-		print($e.getMessage());
+		throw new customException($e.getMessage());
 	}
 ?>

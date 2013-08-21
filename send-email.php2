@@ -1,0 +1,6 @@
+<?
+ini_set('display_errors', 1); 
+error_reporting(E_ALL);
+mail( "mgelves@gmail.com", "Email Subject", "Este es el mensaje", "From: mgelves@caca.com" );
+print "Congratulations your email has been sent";
+?>

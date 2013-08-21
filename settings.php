@@ -1,10 +1,10 @@
 <?php
 	
 	// WEBSITE SETTINGS
-	$appHost = "http://afkar.dev.tecnilogica.com";
-	$appVirtualDirectory = "";
+	$appHost = "http://localhost";
+	$appVirtualDirectory = "afkar";
 	$appUploadDirectory = "uploads";
-	$appPath = $appHost . $appVirtualDirectory;
+	$appPath = $appHost . '/' . $appVirtualDirectory;
 	
 	//EMAIL SETTINGS
 	$email_from = "info@afkar.com";

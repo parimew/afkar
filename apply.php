@@ -317,7 +317,7 @@ You need to convince, inspire and excite us that by choosing you we will be inve
 				            videoPass: $('#videoPass').val(),
 				            txtPeopleInTeam: $('#txtPeopleInTeam').val(),
 				            txtFullName: $('#txtFullName').val(),
-				            pDateBirth: $('#txtMonth').attr('data-value') + "/" + $('#txtDay').text() + "/" + $('#txtYear').text(),
+				            pDateBirth: $('#txtMonth').attr('data-value') + "/" + $('#txtDay').attr('data-value') + "/" + $('#txtYear').attr('data-value'),
 				            pResidence: $('#txtResidence').attr('data-value'),
 				            txtPrefix: $('#txtPrefix').val(),
 				            txtPhoneNumber: $('#txtPhoneNumber').val(),
