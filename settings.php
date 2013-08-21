@@ -1,7 +1,7 @@
 <?php
 	
 	// WEBSITE SETTINGS
-	$appHost = "http://localhost";
+	$appHost = "http://localhost2";
 	$appVirtualDirectory = "afkar";
 	$appUploadDirectory = "uploads";
 	$appPath = $appHost . '/' . $appVirtualDirectory;
