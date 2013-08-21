@@ -339,7 +339,7 @@ You need to convince, inspire and excite us that by choosing you we will be inve
 							  },
 							  error: function(xhr, type, exception) { 
 							    // if ajax fails display error alert
-							    $('p.error').show();
+							    $('p.error').text(xhr.responseText).show();
 							    $('p.success').hide();
 							    $('html, body').animate({scrollTop: 490}, 1500,'easeInOutCirc')
 							  }
