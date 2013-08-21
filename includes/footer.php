@@ -25,7 +25,7 @@
 						  <i class="icon-circle icon-stack-base"></i>
 						  <i class="icon-youtube-play icon-light"></i>
 						</a>
-						<a href="https://www.facebook.com/afkar.me?fref=ts" target="_blank" class="icon-stack">
+						<a href="https://www.facebook.com/intafkar" target="_blank" class="icon-stack">
 						  <i class="icon-circle icon-stack-base"></i>
 						  <i class="icon-facebook icon-light"></i>
 						</a>
