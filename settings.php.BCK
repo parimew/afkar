@@ -2,7 +2,7 @@
 	
 	// WEBSITE SETTINGS
 	$appHost = "http://afkar.dev.tecnilogica.com";
-	$appVirtualDirectory = "";
+	$appVirtualDirectory = "afkar";
 	$appUploadDirectory = "uploads";
 	$appPath = $appHost . '/' . $appVirtualDirectory;
 	
