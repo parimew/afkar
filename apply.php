@@ -333,12 +333,14 @@ You need to convince, inspire and excite us that by choosing you we will be inve
 							  data: vApply,
 							  success: function(data){
 							    $('p.success').show();
+							    $('p.error').hide();
 							    cleanForm();
 							    $('html, body').animate({scrollTop: 490}, 1500,'easeInOutCirc')
 							  },
 							  error: function(xhr, type, exception) { 
 							    // if ajax fails display error alert
 							    $('p.error').show();
+							    $('p.success').hide();
 							    $('html, body').animate({scrollTop: 490}, 1500,'easeInOutCirc')
 							  }
 							});
@@ -364,6 +366,7 @@ You need to convince, inspire and excite us that by choosing you we will be inve
 							$(vTextAreaWrapper).closest('.input-container').find('.mandatory').show();
 							
 							vFieldsFlag = false;
+							console.log('Error en: (1)');
 						}
 						else{
 							$(vTextAreaWrapper).closest('.input-container').find('.mandatory').hide();
@@ -374,6 +377,7 @@ You need to convince, inspire and excite us that by choosing you we will be inve
 					if ($('.checks-wrapper input:checked').length == 0){
 						$('.checks-wrapper .mandatory').show();
 						vFieldsFlag = false;
+						console.log('Error en: (2)');
 					}
 					else{
 						$('.checks-wrapper .mandatory').hide();
@@ -384,6 +388,7 @@ You need to convince, inspire and excite us that by choosing you we will be inve
 						if($(this).val() == ''){
 							$(this).parent().find('.mandatory').css('display','block');
 							vFieldsFlag = false;
+							console.log('Error en: (3)');
 						}
 						else{
 							$(this).parent().find('.mandatory').hide();
