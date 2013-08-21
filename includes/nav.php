@@ -19,7 +19,7 @@
         	<div class="container_4">
         		<div class="grid_4">
 		        	<ul class="grid_4 alpha omega">
-			        	<li><a href="who-we-are">Who we are</a></li>
+			        	<li><a href="<?php echo $appPath; ?>/#who-we-are">Who we are</a></li>
 			        	<li><a href="<?php echo $appPath; ?>/#the-program">The program</a></li>
 			        	<li><a href="<?php echo $appPath; ?>/#our-mentors">Mentors & Partners</a></li>
 			        	<li><a href="<?php echo $appPath; ?>/#faqs">FAQ's</a></li>
