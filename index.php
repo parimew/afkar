@@ -1,7 +1,7 @@
     <?php include('includes/head.php'); ?>
     <body class="home">
         <header id="header" class="fadeIn">
-        	<div class="container_4">
+        	<div class="container_4"> 
 	        	<div id="we-support" class="grid_2">
 		        	<a href="index.php"><img src="<?php echo $appPath; ?>/img/logo-afkar.png" alt="logo-afkar"></a>
 		        	<p id="grow">Grow your big idea here</p>
