@@ -49,7 +49,7 @@
 	
 	try{
     	//Send the email
-    	return mail($email_to,$email_subject,$message,$headers);	
+    	mail($email_to,$email_subject,$message,$headers);	
 	}
 	catch(Exception $e){
 		//re-throw exception
