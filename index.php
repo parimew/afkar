@@ -181,14 +181,14 @@
 	        	</header>
 	        	<ul class="grid_4">
 		        	<li class="grid_1 alpha">
-			        	<img src="<?php echo $appPath; ?>/img/mentor-tarek-saadeh.jpg" alt="Tarek Saadeh">
-			        	<p>Tarek Saadeh</p>
-			        	<p>Partner at CMEA Capital</p>
+			        	<img src="<?php echo $appPath; ?>/img/mentor-louis-lebbos.jpg" alt="Louis Lebbos">
+			        	<p>Louis Lebbos</p>
+			        	<p>Founding Partner</p>
 		        	</li>
 		        	<li class="grid_1">
-			        	<img src="<?php echo $appPath; ?>/img/mentor-omar-hanna.jpg" alt="Omar Hanna">
-			        	<p>Omar Hanna</p>
-			        	<p>Principal at VC/PE firm, Abraaj Capital</p>
+			        	<img src="<?php echo $appPath; ?>/img/mentor-muhammed-mekki.jpg" alt="Muhammed Mekki">
+			        	<p>Muhammed Mekki</p>
+			        	<p>Founding Partner</p>
 		        	</li>
 		        	<li class="grid_1">
 			        	<img src="<?php echo $appPath; ?>/img/mentor-bhusari.jpg" alt="mentor-bhusari">
