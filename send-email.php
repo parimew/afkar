@@ -43,9 +43,10 @@
 	$message .= "<p style='margin:0;'><b>What is your Linkedin Profile URL?</b>: " . $_POST['txtLinkedin'] . "</p>";
 	$message .= "<p style='margin:0;'><b>What is your Skype username?</b>: " . $_POST['txtSkype'] . "</p>";
 		
-	$headers = "From:" . $email_from;
+	$headers = "From: " . $email_from ."\r\n";
 	$headers .= "MIME-Version: 1.0\r\n";
-	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
+	$headers .= "Content-Type: text/html\r\n"
+	$headers .= "charset=ISO-8859-1\r\n";
 	
 	try{
     	//Send the email
