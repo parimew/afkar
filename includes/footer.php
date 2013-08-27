@@ -11,7 +11,7 @@
 					    	<a href="#">FAQs</a>	
 				    	</div>
 					     <h3>Contact us by email</h3>
-					    <a href="#">info@afkar.me</a>
+					    <a href="mailto:info@afkar.me?subject=Contact">info@afkar.me</a>
 				    </div><!-- END #faq-contact -->
 				    <div id="last-tweet">
 					    <h3>last tweet</h3>

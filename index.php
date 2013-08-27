@@ -180,48 +180,49 @@
 		        	<h2>Our mentors</h2>	
 	        	</header>
 	        	<ul class="grid_4">
-		        	<li class="grid_1 alpha">
-			        	<img src="<?php echo $appPath; ?>/img/mentor-louis-lebbos.jpg" alt="Louis Lebbos">
+	        		<li class="grid_1 alpha">
+			        	<img src="<?php echo $appPath; ?>/img/mentor-juan-jose-de-la-torre.jpg" alt="Juan José de la Torre">
 			        	<p>Louis Lebbos</p>
-			        	<p>Founding Partner</p>
+			        	<p>VP Strategy and Technology Intigral</p>
 		        	</li>
 		        	<li class="grid_1">
+			        	<img src="<?php echo $appPath; ?>/img/mentor-victor-kiriakos.jpg" alt="Victor Kiriakos">
+			        	<p>Victor Kiriakos</p>
+			        	<p>Sales and marketing team Intigral</p>
+		        	</li>
+		        	<li class="grid_1">
+			        	<img src="<?php echo $appPath; ?>/img/mentor-taimur.jpg" alt="Taimur Ellhali">
+			        	<p>Taimur Ellhali</p>
+			        	<p>Strategy team Intigral </p>
+		        	</li>
+		        	<li class="grid_1 omega">
+			        	<img src="<?php echo $appPath; ?>/img/mentor-souhail.jpg" alt="Souhail Khoury">
+			        	<p>Souhail Khoury</p>
+			        	<p>Strategy team Intigral </p>
+		        	</li>
+	        	</ul>
+	        	<ul class="grid_4 last-child">		        	
+		        	<li class="grid_1 alpha">
 			        	<img src="<?php echo $appPath; ?>/img/mentor-muhammed-mekki.jpg" alt="Muhammed Mekki">
 			        	<p>Muhammed Mekki</p>
 			        	<p>Founding Partner</p>
 		        	</li>
 		        	<li class="grid_1">
-			        	<img src="<?php echo $appPath; ?>/img/mentor-bhusari.jpg" alt="mentor-bhusari">
-			        	<p>J.C.Bhusari</p>
-			        	<p>VP Engineering at digital rewards startup</p>
-		        	</li>
-		        	<li class="grid_1 omega">
-			        	<img src="<?php echo $appPath; ?>/img/mentor-walid-tabaza.jpg" alt="walid-tabaza">
-			        	<p>Walid Tabaza</p>
-			        	<p>Ceo of Google</p>
-		        	</li>
-	        	</ul>
-	        	<ul class="grid_4 last-child">
-		        	<li class="grid_1 alpha">
-			        	<img src="<?php echo $appPath; ?>/img/mentor-tarek-saadeh2.jpg" alt="Tarek Saadeh">
-			        	<p>Tarek Saadeh</p>
-			        	<p>Partner at CMEA Capital</p>
+			        	<img src="<?php echo $appPath; ?>/img/mentor-louis-lebbos.jpg" alt="Louis Lebbos">
+			        	<p>Louis Lebbos</p>
+			        	<p>Founding Partner</p>
 		        	</li>
 		        	<li class="grid_1">
-			        	<img src="<?php echo $appPath; ?>/img/mentor-omar-hanna2.jpg" alt="Omar Hanna">
-			        	<p>Omar Hanna</p>
-			        	<p>Principal at VC/PE firm, Abraaj Capital</p>
-		        	</li>
-		        	<li class="grid_1">
-			        	<img src="<?php echo $appPath; ?>/img/mentor-bhusari2.jpg" alt="mentor-bhusari">
-			        	<p>J.C.Bhusari</p>
-			        	<p>VP Engineering at digital rewards startup</p>
+			        	<img src="<?php echo $appPath; ?>/img/mentor-alexander.jpg" alt="Alexander Mathew Williams">
+			        	<p>Alexander Mathew Williams</p>
+			        	<p>Dubai SME</p>
 		        	</li>
 		        	<li class="grid_1 omega">
-			        	<img src="<?php echo $appPath; ?>/img/mentor-walid-tabaza2.jpg" alt="walid-tabaza">
-			        	<p>Walid Tabaza</p>
-			        	<p>Ceo of Google</p>
+			        	<img src="<?php echo $appPath; ?>/img/mentor-genny.jpg" alt="Genny Ghanimeh">
+			        	<p>Genny Ghanimeh</p>
+			        	<p>Founding Partner Pislice</p>
 		        	</li>
+		        	
 	        	</ul>	
 	        	<div class="clear"></div>
         	</div><!-- END .container_4 -->
@@ -270,7 +271,7 @@
 		        	<ul>
 			        	<li>
 			        		<div class="question">
-				        		Is a one man team allowed for funding?
+				        		Is one member team allowed for funding?
 				        		<div class="arrow-container">
 				        			<div class="arrow-right"></div>
 				        			<i class="icon-chevron-down"></i>
