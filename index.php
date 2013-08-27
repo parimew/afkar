@@ -269,25 +269,55 @@
 		        	<h2>Our Partners</h2>	
 	        	</header>
 	        	<ul class="grid_4">
-		        	<li>
-		        		<a href="#"><img src="<?php echo $appPath; ?>/img/partners-insead.png" alt="insead"></a>
-		        		<a href="#"><img src="<?php echo $appPath; ?>/img/partners-wamda.png" alt="wamda"></a>
-		        		<a href="#"><img src="<?php echo $appPath; ?>/img/partners-arabnet.png" alt="arabnet"></a>
-		        		<a href="#"><img src="<?php echo $appPath; ?>/img/partners-boozcoandco.png" alt="boozco&co"></a>
+		        	<li class="grid_1 alpha">
+		        		<a href="http://astrolabs.me/" target="_blank">
+		        			<img src="<?php echo $appPath; ?>/img/partners-astrolabs.png" alt="Astrolab">	
+		        		</a>
 		        	</li>
-		        	<li>
-		        		<a href="#"><img src="<?php echo $appPath; ?>/img/partners-dubaisme.png" alt="dubaisme"></a>
-		        		<a href="#"><img src="<?php echo $appPath; ?>/img/partners-tecom.png" alt="tecom"></a>
-		        		<a href="#"><img src="<?php echo $appPath; ?>/img/partners-mbc.png" alt="mbc"></a>
-		        		<a href="#"><img src="<?php echo $appPath; ?>/img/partners-astrolabs.png" alt="astrolabs"></a>
+		        	<li class="grid_1">
+		        		<a href="http://www.mbc.net/en.html" target="_blank">
+		        			<img src="<?php echo $appPath; ?>/img/partners-mbc.png" alt="MBV">	
+		        		</a>
 		        	</li>
-		        	<li>
-		        		<a href="#"><img src="<?php echo $appPath; ?>/img/partners-aus.png" alt="aus"></a>
-		        		<a href="#"><img src="<?php echo $appPath; ?>/img/partners-mevp.png" alt="mevp"></a>
+		        	<li class="grid_1">
+		        		<a href="http://stcventures.com/" target="_blank">
+		        			<img src="<?php echo $appPath; ?>/img/partners-STC.png" alt="STC">	
+		        		</a>
 		        	</li>
-		        	<li>	
-		        		<a href="#"><img src="<?php echo $appPath; ?>/img/partners-nnv.png" alt="nnv"></a>
-		        		<a href="#"><img src="<?php echo $appPath; ?>/img/partners-oqal.png" alt="oqal"></a>
+		        	<li class="grid_1 omega">
+		        		<a href="http://www.pi-slice.com/en" target="_blank">
+		        			<img src="<?php echo $appPath; ?>/img/partners-pislice.png" alt="Pislice">	
+		        		</a>
+		        	</li>
+		        	<li class="grid_1 alpha">
+		        		<a href="http://arabnet.me/" target="_blank">
+		        			<img src="<?php echo $appPath; ?>/img/partners-arabnet.png" alt="Arabnet">	
+		        		</a>
+		        	</li>
+		        	<li class="grid_1">
+		        		<a href="http://www.ketchum.com/dubai" target="_blank">
+		        			<img src="<?php echo $appPath; ?>/img/partners-ketchum.png" alt="RAAD Middle East">	
+		        		</a>
+		        	</li>
+		        	<li class="grid_1">
+		        		<a href="http://www.wamda.com/" target="_blank">
+		        			<img src="<?php echo $appPath; ?>/img/partners-wamda.png" alt="Wamda">	
+		        		</a>
+		        	</li>
+		        	<li class="grid_1 omega">
+		        		<a href="http://theonlineproject.me/" target="_blank">
+		        			<img src="<?php echo $appPath; ?>/img/partners-top.png" alt="Top">	
+		        		</a>
+		        	</li>
+		        	<li class="grid_1 alpha">
+		        		<a href="http://www.altran.com/" target="_blank">
+		        			<img src="<?php echo $appPath; ?>/img/partners-altran.png" alt="Altran">	
+		        		</a>
+		        	</li>
+		        	<li class="grid_1">
+		        		<a href="http://www.mevp.com/" target="_blank">
+		        			<img src="<?php echo $appPath; ?>/img/partners-mev.png" alt="MEV">	
+		        		</a>
 		        	</li>
 	        	</ul>
         	<div class="clear"></div>
