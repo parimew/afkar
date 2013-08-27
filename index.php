@@ -254,7 +254,7 @@
 			        	<img src="<?php echo $appPath; ?>/img/mentor-badr.jpg" alt="Badr Ward">
 			        	<p class="name">Badr Ward</p>
 			        	<p>CEO</p>
-			        	<p class="location">Ertiqa</p>
+			        	<p class="location">Lamsa</p>
 		        	</li>
 	        	</ul>
 	        	<div class="clear"></div>
