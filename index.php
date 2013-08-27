@@ -177,53 +177,86 @@
         	<div class="container_4">
 		        <header class="grid_4">
 		        	<span>NOT ONLY GREAT EXPERTS</span>
-		        	<h2>Our mentors</h2>	
+		        	<h2>Team & Mentors</h2>	
 	        	</header>
 	        	<ul class="grid_4">
 	        		<li class="grid_1 alpha">
-			        	<img src="<?php echo $appPath; ?>/img/mentor-juan-jose-de-la-torre.jpg" alt="Juan José de la Torre">
-			        	<p>Louis Lebbos</p>
-			        	<p>VP Strategy and Technology Intigral</p>
+			        	<img src="<?php echo $appPath; ?>/img/mentor-juan-jose-de-la-torre.jpg" alt="Juan José De La Torre">
+			        	<p class="name">Juan José De La Torre</p>
+			        	<p>VP Strategy and Technology</p>
+			        	<p class="location">Intigral</p>
 		        	</li>
 		        	<li class="grid_1">
 			        	<img src="<?php echo $appPath; ?>/img/mentor-victor-kiriakos.jpg" alt="Victor Kiriakos">
-			        	<p>Victor Kiriakos</p>
-			        	<p>Sales and marketing team Intigral</p>
+			        	<p class="name">Victor Kiriakos</p>
+			        	<p>Sales and marketing team</p>
+			        	<p class="location">Intigral</p>
 		        	</li>
 		        	<li class="grid_1">
 			        	<img src="<?php echo $appPath; ?>/img/mentor-taimur.jpg" alt="Taimur Ellhali">
-			        	<p>Taimur Ellhali</p>
-			        	<p>Strategy team Intigral </p>
+			        	<p class="name">Taimur Ellhali</p>
+			        	<p>Strategy team</p>
+			        	<p class="location">Intigral</p>
 		        	</li>
 		        	<li class="grid_1 omega">
 			        	<img src="<?php echo $appPath; ?>/img/mentor-souhail.jpg" alt="Souhail Khoury">
-			        	<p>Souhail Khoury</p>
-			        	<p>Strategy team Intigral </p>
+			        	<p class="name">Souhail Khoury</p>
+			        	<p>Strategy team</p>
+			        	<p class="location">Intigral</p>
 		        	</li>
 	        	</ul>
-	        	<ul class="grid_4 last-child">		        	
+	        	<ul class="grid_4">		        	
 		        	<li class="grid_1 alpha">
 			        	<img src="<?php echo $appPath; ?>/img/mentor-muhammed-mekki.jpg" alt="Muhammed Mekki">
-			        	<p>Muhammed Mekki</p>
+			        	<p class="name">Muhammed Mekki</p>
 			        	<p>Founding Partner</p>
+			        	<p class="location">Astrolabs</p>
 		        	</li>
 		        	<li class="grid_1">
 			        	<img src="<?php echo $appPath; ?>/img/mentor-louis-lebbos.jpg" alt="Louis Lebbos">
-			        	<p>Louis Lebbos</p>
+			        	<p class="name">Louis Lebbos</p>
 			        	<p>Founding Partner</p>
+			        	<p class="location">Astrolabs</p>
 		        	</li>
 		        	<li class="grid_1">
 			        	<img src="<?php echo $appPath; ?>/img/mentor-alexander.jpg" alt="Alexander Mathew Williams">
-			        	<p>Alexander Mathew Williams</p>
-			        	<p>Dubai SME</p>
+			        	<p class="name">Alexander Mathew Williams</p>
+			        	<p class="location">Dubai SME</p>
 		        	</li>
 		        	<li class="grid_1 omega">
 			        	<img src="<?php echo $appPath; ?>/img/mentor-genny.jpg" alt="Genny Ghanimeh">
-			        	<p>Genny Ghanimeh</p>
-			        	<p>Founding Partner Pislice</p>
+			        	<p class="name">Genny Ghanimeh</p>
+			        	<p>Founding Partner</p>
+			        	<p class="location">Pislice</p>
 		        	</li>
 		        	
-	        	</ul>	
+	        	</ul>
+	        	<ul class="grid_4 last-child">
+	        		<li class="grid_1 alpha">
+			        	<img src="<?php echo $appPath; ?>/img/mentor-angus.jpg" alt="Angus Paterson">
+			        	<p class="name">Angus Paterson</p>
+			        	<p>Partner</p>
+			        	<p class="location">STC Ventures</p>
+		        	</li>
+		        	<li class="grid_1">
+			        	<img src="<?php echo $appPath; ?>/img/mentor-alfonso.jpg" alt="Alfonso Cabas">
+			        	<p class="name">Alfonso Cabas</p>
+			        	<p>Head of telecom and media</p>
+			        	<p class="location">Altran</p>
+		        	</li>
+		        	<li class="grid_1">
+			        	<img src="<?php echo $appPath; ?>/img/mentor-zafer.jpg" alt="Zafer younis">
+			        	<p class="name">Zafer younis</p>
+			        	<p>CEO</p>
+			        	<p class="location">The Online project</p>
+		        	</li>
+		        	<li class="grid_1 omega">
+			        	<img src="<?php echo $appPath; ?>/img/mentor-badr.jpg" alt="Badr Ward">
+			        	<p class="name">Badr Ward</p>
+			        	<p>CEO</p>
+			        	<p class="location">Ertiqa</p>
+		        	</li>
+	        	</ul>
 	        	<div class="clear"></div>
         	</div><!-- END .container_4 -->
         	
