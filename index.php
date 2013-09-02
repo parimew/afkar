@@ -231,7 +231,7 @@
 		        	</li>
 		        	
 	        	</ul>
-	        	<ul class="grid_4 last-child">
+	        	<ul class="grid_4">
 	        		<li class="grid_1 alpha">
 			        	<img src="<?php echo $appPath; ?>/img/mentor-angus.jpg" alt="Angus Paterson">
 			        	<p class="name">Angus Paterson</p>
@@ -255,6 +255,14 @@
 			        	<p class="name">Badr Ward</p>
 			        	<p>CEO</p>
 			        	<p class="location">Lamsa</p>
+		        	</li>
+	        	</ul>
+	        	<ul class="grid_4 last-child">
+	        		<li class="grid_1 alpha">
+			        	<img src="<?php echo $appPath; ?>/img/mentor-joanna.jpg" alt="Joanna Truffaut">
+			        	<p class="name">Joanna Truffaut</p>
+			        	<p>Managing Director</p>
+			        	<p class="location">Ward Advisors</p>
 		        	</li>
 	        	</ul>
 	        	<div class="clear"></div>
@@ -317,6 +325,11 @@
 		        	<li class="grid_1">
 		        		<a href="http://www.mevp.com/" target="_blank">
 		        			<img src="<?php echo $appPath; ?>/img/partners-mev.png" alt="MEV">	
+		        		</a>
+		        	</li>
+		        	<li class="grid_1">
+		        		<a href="http://www.ward-advisors.com/" target="_blank">
+		        			<img src="<?php echo $appPath; ?>/img/partners-ward-advisors.png" alt="MEV">	
 		        		</a>
 		        	</li>
 	        	</ul>

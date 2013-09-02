@@ -2290,8 +2290,7 @@ a .icon-flip-vertical:before {
 .custom-select {
   display: inline-block;
   position: relative;
-  /* width: 122px; */
-
+  width: 122px;
 }
 .custom-select p {
   color: #565656 !important;
@@ -2316,6 +2315,7 @@ a .icon-flip-vertical:before {
 }
 .custom-select p i {
   display: inline-block;
+  float: right;
   margin-left: 10px;
 }
 .custom-select ul {
@@ -3646,7 +3646,7 @@ expandOpen
   display: inline-block;
   font-size: 28px;
   font-size: 2.8rem;
-  margin-right: 27px;
+  margin-right: 10px;
   -webkit-transition: all 0.25s ease-out;
 }
 #footer #contact-container #last-tweet a.icon-stack .icon-circle {

@@ -25,13 +25,17 @@
 						  <i class="icon-circle icon-stack-base"></i>
 						  <i class="icon-youtube-play icon-light"></i>
 						</a>
-						<a href="https://www.facebook.com/intafkar" target="_blank" class="icon-stack">
+						<a href="https://www.facebook.com/afkar.me" target="_blank" class="icon-stack">
 						  <i class="icon-circle icon-stack-base"></i>
 						  <i class="icon-facebook icon-light"></i>
 						</a>
 						<a href="https://plus.google.com/b/108559906790966316139/108559906790966316139/posts" target="_blank" class="icon-stack">
 						  <i class="icon-circle icon-stack-base"></i>
 						  <i class="icon-google-plus icon-light"></i>
+						</a>
+						<a href="#" target="_blank" class="icon-stack">
+						  <i class="icon-circle icon-stack-base"></i>
+						  <i class="icon-linkedin icon-light"></i>
 						</a>
 				    </div><!-- END #last-tweet -->
 				    <div class="clear"></div>
