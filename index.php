@@ -18,7 +18,7 @@
         		<div id="video-container">
         			<img src="<?php echo $appPath; ?>/img/video-promo.jpg" alt="video-promo">  
         			<a class="fancybox-media" rel="media-gallery" href="http://youtu.be/Hgha7nYmXmc"><i class="icon-play-circle icon-light"></i></a>
-	        		<p><b>Incubation?</b> Let us explain <span>how we are different</span> in 56 seconds</p>	
+	        		<p><b>Incubation?</b> Let us explain <span>how we are different</span> in 1 minute</p>	
         		</div><!-- END #video-container -->	
         	</div><!-- END #video-promo -->
         </header>
@@ -329,7 +329,12 @@
 		        	</li>
 		        	<li class="grid_1">
 		        		<a href="http://www.ward-advisors.com/" target="_blank">
-		        			<img src="<?php echo $appPath; ?>/img/partners-ward-advisors.png" alt="MEV">	
+		        			<img src="<?php echo $appPath; ?>/img/partners-ward-advisors.png" alt="Ward Advisors">	
+		        		</a>
+		        	</li>
+		        	<li class="grid_1 omega">
+		        		<a href="http://www.oliverwyman.com/" target="_blank">
+		        			<img src="<?php echo $appPath; ?>/img/oliver.png" alt="Oliver Wyman">	
 		        		</a>
 		        	</li>
 	        	</ul>
