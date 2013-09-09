@@ -569,7 +569,7 @@ You need to convince, inspire and excite us that by choosing you we will be inve
 					}
 					
 					//Text Inputs
-					$('#txtFullName, #txtPrefix, #txtPhoneNumber, #txtLinkedin, #txtSkype').each(function(){
+					$('#txtFullName, #txtPrefix, #txtPhoneNumber, #txtLinkedin, #txtSkype, #txtEmail').each(function(){
 						if($(this).val() == ''){
 							$(this).parent().find('.mandatory').css('display','block');
 							vFieldsFlag = false;
