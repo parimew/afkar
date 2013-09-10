@@ -15,7 +15,7 @@
 				    </div><!-- END #faq-contact -->
 				    <div id="last-tweet">
 					    <h3>last tweet</h3>
-					    <p><a href="#">@telejet</a>: BOOM! Here are the slides from my #webvisions talk on Adaptive Images in #RWD… #wvbcn. greatest time ever!</p>
+					    <p id="tweetText"></p>
 					    <h3>follow us</h3>
 					    <a href="https://twitter.com/Afkarme" target="_blank" class="icon-stack">
 						  <i class="icon-circle icon-stack-base"></i>
@@ -49,3 +49,12 @@
 
         <script src="<?php echo $appPath; ?>/js/plugins.js"></script>
         <script src="<?php echo $appPath; ?>/js/main.js"></script>
+        
+        <script>
+	        $(document).ready(function(){
+		        	$.getJSON('<?php echo $appPath; ?>/js/vendor/tweets_json.php?count=1&include_entities=true', function(data){
+			     	$('#tweetText').html(data[0].text);
+		        })
+	        });
+	        
+        </script>
