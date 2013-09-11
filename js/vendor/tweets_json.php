@@ -30,6 +30,8 @@ $http_code = $connection->request('GET', $connection->url($twitter_path), $param
 
 if ($http_code === 200) { // if everything's good
 	$response = strip_tags($connection->response['response']);
+	//Modify every tweet
+	$response = auto_link_twitter ($response);
 
 	if ($_GET['callback']) { // if we ask for a jsonp callback function
 		echo $_GET['callback'],'(', $response,');';
@@ -42,3 +44,23 @@ if ($http_code === 200) { // if everything's good
 }
 
 // You may have to download and copy http://curl.haxx.se/ca/cacert.pem
+function auto_link_twitter ($text)
+{
+    // properly formatted URLs
+$urls = "/(((http[s]?:\/\/)|(www\.))?(([a-z][-a-z0-9]+\.)?[a-z][-a-z0-9]+\.[a-z]+(\.[a-z]{2,2})?)\/?[a-z0-9._\/~#&=;%+?-]+[a-z0-9\/#=?]{1,1})/is";
+    $text = preg_replace($urls, " <a href='$1'>$1</a>", $text);
+
+    // URLs without protocols
+    $text = preg_replace("/href=\"www/", "href=\"http://www", $text);
+
+    // Twitter usernames
+    $twitter = "/@([A-Za-z0-9_]+)/is";
+    $text = preg_replace ($twitter, " <a href='http://twitter.com/$1'>@$1</a>", $text);
+
+    // Twitter hashtags
+    $hashtag = "/#([A-Aa-z0-9_-]+)/is";
+    $text = preg_replace ($hashtag, " <a href='http://hashtags.org/$1'>#$1</a>", $text);
+    
+    return $text;
+}
+?>
