@@ -5,7 +5,7 @@
         <header id="header" class="stellar" data-stellar-background-ratio="0">
         	<div class="container_4">
         		<div id="we-are-glad" class="grid_4">
-		        	<h2>We’re glad to see you here! Go for it!</h2>
+		        	<h2>We&rsquo;re glad to see you here! Go for it!</h2>
 		        	<p>Before you dive into the form gather all the information you may need. 
 You need to convince, inspire and excite us that by choosing you we will be investing in <b>the next big thing for the MENA digital sector.</b></p>
 	        	</div><!-- END #we-are-glad -->	        	
@@ -15,8 +15,8 @@ You need to convince, inspire and excite us that by choosing you we will be inve
         
         <section id="form-container">
 	        <div class="container_4">
-	        		<p class="grid_4 message success">Thanks for applying! Check your mail and keep informed about all our activities. We’ll let you know if your project passes to the next stage.</p>
-	        		<p class="grid_4 message error">Please, check all red fields and complete the necessary information</p>
+	        		<p class="grid_4 message success">Thanks for applying! <br> Check your mail, we will keep you informed about all our activities. We’ll let you know if your project goes on to the next stage.</p>
+	        		<p class="grid_4 message error">Something happened!<br> Please check all the fields in red and complete the requested information.</p>
 	        		<div class="clear"></div>
 		        	<form action="send-form.php">
 		        		<header class="grid_4">

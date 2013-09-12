@@ -14,8 +14,8 @@
 					    <a href="mailto:info@afkar.me?subject=Contact">info@afkar.me</a>
 				    </div><!-- END #faq-contact -->
 				    <div id="last-tweet">
-					    <h3>last tweet</h3>
-					    <p id="tweetText"></p>
+					    <!-- <h3>last tweet</h3>
+					    <p id="tweetText"></p> -->
 					    <h3>follow us</h3>
 					    <a href="https://twitter.com/Afkarme" target="_blank" class="icon-stack">
 						  <i class="icon-circle icon-stack-base"></i>

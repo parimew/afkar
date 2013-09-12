@@ -264,6 +264,18 @@
 			        	<p>Managing Director</p>
 			        	<p class="location">Ward Advisors</p>
 		        	</li>
+		        	<li class="grid_1">
+			        	<img src="<?php echo $appPath; ?>/img/mentor-javier-gonzales.jpg" alt="Javier Gonzalez">
+			        	<p class="name">Javier Gonzalez Piñal</p>
+			        	<p>Partner</p>
+			        	<p class="location">Oliver Wyman</p>
+		        	</li>
+		        	<li class="grid_1">
+			        	<img src="<?php echo $appPath; ?>/img/mentor-pierre.jpg" alt="Zafer younis">
+			        	<p class="name">Pierre de Mascarel</p>
+			        	<p>Partner</p>
+			        	<p class="location">Oliver Wyman</p>
+		        	</li>
 	        	</ul>
 	        	<div class="clear"></div>
         	</div><!-- END .container_4 -->
@@ -292,17 +304,17 @@
 		        			<img src="<?php echo $appPath; ?>/img/partners-STC.png" alt="STC">	
 		        		</a>
 		        	</li>
-		        	<li class="grid_1 omega">
+		        	<!-- <li class="grid_1 omega">
 		        		<a href="http://www.pi-slice.com/en" target="_blank">
 		        			<img src="<?php echo $appPath; ?>/img/partners-pislice.png" alt="Pislice">	
 		        		</a>
-		        	</li>
-		        	<li class="grid_1 alpha">
+		        	</li> -->
+		        	<li class="grid_1 omega">
 		        		<a href="http://arabnet.me/" target="_blank">
 		        			<img src="<?php echo $appPath; ?>/img/partners-arabnet.png" alt="Arabnet">	
 		        		</a>
 		        	</li>
-		        	<li class="grid_1">
+		        	<li class="grid_1 alpha">
 		        		<a href="http://www.ketchum.com/dubai" target="_blank">
 		        			<img src="<?php echo $appPath; ?>/img/partners-ketchum.png" alt="RAAD Middle East">	
 		        		</a>
@@ -312,27 +324,27 @@
 		        			<img src="<?php echo $appPath; ?>/img/partners-wamda.png" alt="Wamda">	
 		        		</a>
 		        	</li>
-		        	<li class="grid_1 omega">
+		        	<li class="grid_1 ">
 		        		<a href="http://theonlineproject.me/" target="_blank">
 		        			<img src="<?php echo $appPath; ?>/img/partners-top.png" alt="Top">	
 		        		</a>
 		        	</li>
-		        	<li class="grid_1 alpha">
+		        	<li class="grid_1 omega">
 		        		<a href="http://www.altran.com/" target="_blank">
 		        			<img src="<?php echo $appPath; ?>/img/partners-altran.png" alt="Altran">	
 		        		</a>
 		        	</li>
-		        	<li class="grid_1">
+		        	<li class="grid_1 alpha">
 		        		<a href="http://www.mevp.com/" target="_blank">
 		        			<img src="<?php echo $appPath; ?>/img/partners-mev.png" alt="MEV">	
 		        		</a>
 		        	</li>
-		        	<li class="grid_1">
+		        	<!-- <li class="grid_1">
 		        		<a href="http://www.ward-advisors.com/" target="_blank">
 		        			<img src="<?php echo $appPath; ?>/img/partners-ward-advisors.png" alt="Ward Advisors">	
 		        		</a>
-		        	</li>
-		        	<li class="grid_1 omega">
+		        	</li> -->
+		        	<li class="grid_1 ">
 		        		<a href="http://www.oliverwyman.com/" target="_blank">
 		        			<img src="<?php echo $appPath; ?>/img/oliver.png" alt="Oliver Wyman">	
 		        		</a>
