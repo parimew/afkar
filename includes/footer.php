@@ -50,7 +50,8 @@
         <script src="<?php echo $appPath; ?>/js/plugins.js"></script>
         <script src="<?php echo $appPath; ?>/js/main.js"></script>
         
-        <script>
+       <!--
+ <script>
 	        $(document).ready(function(){
 		        	$.getJSON('<?php echo $appPath; ?>/js/vendor/tweets_json.php?count=1&include_entities=true', function(data){
 			     	$('#tweetText').html(data[0].text);
@@ -58,3 +59,4 @@
 	        });
 	        
         </script>
+-->
