@@ -2729,6 +2729,7 @@ expandOpen
 .home #header #video-promo #video-container {
   background-color: #fff;
   border: 1px solid #fff;
+  cursor: pointer;
 }
 .home #header #video-promo #video-container p {
   font-family: 'museo_sans_rounded_100regular';
