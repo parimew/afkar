@@ -3,10 +3,11 @@
 	
 	//Variables
 	$message = '';
+	$callbackEmail ='';
 	$headers = '';
 	
 	
-$message = "<p>Hello Admin! A new apply has been uploaded through the Afkar Website.<br />";
+	$message = "<p>Hello Admin! A new apply has been uploaded through the Afkar Website.<br />";
 	$message .= "Here are the details:</p>";
 	$message .= "<p>=== YOUR IDEA/PROJECT ==============================================================</p>";
 	$message .= "<b>Describe your idea/project in 500 characters:</b><br/><p style='margin:0 0 20px 0;'>" . $_POST['txtMyIdea'] . "</p>";
@@ -41,22 +42,33 @@ $message = "<p>Hello Admin! A new apply has been uploaded through the Afkar Webs
 	$message .= "<p style='margin:0;'><b>What is your name? (Full name)</b>: " . $_POST['txtFullName'] . "</p>";
 	$message .= "<p style='margin:0;'><b>Date of birth</b>: " . $_POST['pDateBirth'] . " (mm/dd/yyyy)</p>";
 	$message .= "<p style='margin:0;'><b>Country of residence</b>: " . $_POST['pResidence'] . "</p>";
-	$message .= "<p style='margin:0;'><b>What is your phone number and email?</b>: " . $_POST['txtPrefix'] . " - " . $_POST['txtPhoneNumber'] . "</p>";
+	$message .= "<p style='margin:0;'><b>What is your phone number and email?</b>: " . $_POST['txtPrefix'] . " - " . $_POST['txtPhoneNumber'] . ", email: " . $_POST['txtEmail'] . "</p>";
 	$message .= "<p style='margin:0;'><b>What is your Linkedin Profile URL?</b>: " . $_POST['txtLinkedin'] . "</p>";
 	$message .= "<p style='margin:0;'><b>What is your Skype username?</b>: " . $_POST['txtSkype'] . "</p>";
 		
 	$headers = "From: " . $email_from . "\r\n";
 	$headers .= "MIME-Version: 1.0\r\n";
-	$headers .= "Content-Type: text/html\r\n";
-	$headers .= "charset=ISO-8859-1\r\n";
+	$headers .= "Content-Type: text/html";
+
+
+//Email for the user
+$callbackEmail = "<p>Thank you for applying to <a href='http://afkar.me'>afkar.me</a> , we have successfully received your application and will get back to you with a response in Mid-November</p><p>To stay up to date with our latest news please visit our website : www.afkar.me and our facebook page <a href='http://www.facebook.com/afkar.me'>www.facebook.com/afkar.me</a>.</p><p>Please feel free to contact us on the following mail afkar@intigral.net for any inquiry.</p><p>Good Luck,</p><p>The Afkar.me Team</p>";
 
 	
 	try{
-    	//Send the email
+    	//Send the email to Afkar
     	mail($email_to,$email_subject,$message,$headers);	
+    	
+    	//Return email to the user
+    	mail($_POST['txtEmail'],"Afkar.me - we've received your message",$callbackEmail,$headers);	
 	}
 	catch(Exception $e){
 		//re-throw exception
 		throw new customException($e.getMessage());
 	}
 ?>
+
+
+<!--
+
+-->

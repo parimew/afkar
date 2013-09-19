@@ -506,6 +506,7 @@ You need to convince, inspire and excite us that by choosing you we will be inve
 				            pResidence: $('#txtResidence').attr('data-value'),
 				            txtPrefix: $('#txtPrefix').val(),
 				            txtPhoneNumber: $('#txtPhoneNumber').val(),
+				            txtEmail: $('#txtEmail').val(),
 				            txtLinkedin: $('#txtLinkedin').val(),
 				            txtSkype: $('#txtSkype').val()
 				            }
