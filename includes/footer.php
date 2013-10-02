@@ -11,11 +11,11 @@
 					    	<a href="#">FAQs</a>	
 				    	</div>
 					     <h3>Contact us by email</h3>
-					    <a href="mailto:info@afkar.me?subject=Contact">info@afkar.me</a>
+					    <a href="mailto:afkar@intigral.net?subject=Contact">afkar@intigral.net</a>
 				    </div><!-- END #faq-contact -->
 				    <div id="last-tweet">
 					    <!-- <h3>last tweet</h3>
-					    <p id="tweetText"></p> -->
+					    <p><a href="#">@telejet</a>: BOOM! Here are the slides from my #webvisions talk on Adaptive Images in #RWD… #wvbcn. greatest time ever!</p> -->
 					    <h3>follow us</h3>
 					    <a href="https://twitter.com/Afkarme" target="_blank" class="icon-stack">
 						  <i class="icon-circle icon-stack-base"></i>
@@ -29,7 +29,7 @@
 						  <i class="icon-circle icon-stack-base"></i>
 						  <i class="icon-facebook icon-light"></i>
 						</a>
-						<a href="https://plus.google.com/b/108559906790966316139/108559906790966316139/posts" target="_blank" class="icon-stack">
+						<a href="https://plus.google.com/108559906790966316139" rel="publisher" target="_blank" class="icon-stack">
 						  <i class="icon-circle icon-stack-base"></i>
 						  <i class="icon-google-plus icon-light"></i>
 						</a>
@@ -49,14 +49,3 @@
 
         <script src="<?php echo $appPath; ?>/js/plugins.js"></script>
         <script src="<?php echo $appPath; ?>/js/main.js"></script>
-        
-       <!--
- <script>
-	        $(document).ready(function(){
-		        	$.getJSON('<?php echo $appPath; ?>/js/vendor/tweets_json.php?count=1&include_entities=true', function(data){
-			     	$('#tweetText').html(data[0].text);
-		        })
-	        });
-	        
-        </script>
--->

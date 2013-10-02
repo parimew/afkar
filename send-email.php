@@ -56,6 +56,9 @@ $callbackEmail = "<p>Thank you for applying to <a href='http://afkar.me'>afkar.m
 
 	
 	try{
+		$filedate = date ("Ymd");
+		file_put_contents ( "logs/" . $filedate . ".html" , $message . '\n\n\n\n', FILE_APPEND);
+		
     	//Send the email to Afkar
     	mail($email_to,$email_subject,$message,$headers);	
     	

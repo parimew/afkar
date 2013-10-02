@@ -15,7 +15,7 @@
         	</div><!-- END .container_4 -->
         	
         	<div id="video-promo" class="grid_2">
-        		<div id="video-container" class="fancybox-media" rel="media-gallery" href="http://youtu.be/Hgha7nYmXmc">
+        		<div id="video-container" class="fancybox-media" rel="media-gallery" href="http://youtu.be/RaI9mJnhoqw">
         			<img src="<?php echo $appPath; ?>/img/video-promo.jpg" alt="video-promo">  
         			<a class="fancybox-media" rel="media-gallery" href="http://youtu.be/Hgha7nYmXmc"><i class="icon-play-circle icon-light"></i></a>
 	        		<p><b>Incubation?</b> Let us explain <span>how we are different</span> in 1 minute</p>	
