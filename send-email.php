@@ -30,29 +30,14 @@
 	$emailToAfkar->setFrom($from);
 	$emailToAfkar->setBody($message, 'text/html');
 	$emailToAfkar->setTo($to);
-	$status = $swift->send($emailToAfkar, $failures);
-	
-	//Check the status
-	if(!$status){
-		//Email to the user with the ACK
-		$emailToUser = new Swift_Message("Afkar.me - we've received your message");
-		$emailToUser->setFrom($from);
-		$emailToUser->setBody($ACKMessage, 'text/html');
-		$emailToUser->setTo(array($_POST['txtEmail'] => $_POST['txtFullName']);	
-		$status = $swift->send($emailToUser, $failures);
-	}
-	
-	if (!$status)
-	{
-		$emailErrorMessage = $failures;
-	}
-	else{
-		$emailErrorMessage = "";
-	}
+	$swift->send($emailToAfkar, $failures);
 	
 	
-	
-	
-	
+	//Email to the user with the ACK
+	$emailToUser = new Swift_Message("Afkar.me - we've received your message");
+	$emailToUser->setFrom($from);
+	$emailToUser->setBody($ACKMessage, 'text/html');
+	$emailToUser->setTo(array($_POST['txtEmail'] => $_POST['txtFullName']));	
+	$status = $swift->send($emailToUser, $failures);	
 	
 ?>
