@@ -1,14 +1,15 @@
 <?php
 	
 	// WEBSITE SETTINGS
-	$appHost = "http://afkar.me";
-	$appVirtualDirectory = "";
+	$appHost = "http://localhost/";
+	$appVirtualDirectory = "afkar";
 	$appUploadDirectory = "uploads";
-	$appPath = $appHost;
+	$appPath = $appHost . $appVirtualDirectory;
 	
 	//EMAIL SETTINGS
 	$email_from = "info@afkar.com";
-	$email_to = "afkar@intigral.net";
+	$name_from = "Afkar";
+	$email_to = "mgelves@gmail.com";
 	$email_subject = "This is the Afkar Subject";
 	
 	//TimeZone

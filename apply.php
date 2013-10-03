@@ -649,10 +649,13 @@ You need to convince, inspire and excite us that by choosing you we will be inve
 				$.ajax({
 					  type: "POST",
 					  url: "remove.php",
-					  data: { filename: file.name }
+					  data: { filename: file.filename }
 					});
 			});
-			
+			myDropzone.on("success", function(file,response) {
+				file.filename = response;
+			    $(file.previewTemplate).find('span[data-dz-name]').html(response);
+			});
 			
         </script>
     </body>
