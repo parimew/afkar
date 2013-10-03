@@ -8,7 +8,7 @@
 	
 	//EMAIL SETTINGS
 	$email_from = "info@afkar.com";
-	$email_to = "andres.botero@designit.com";
+	$email_to = "mgelves@gmail.com";
 	$email_subject = "This is the Afkar Subject";
 	
 ?>
